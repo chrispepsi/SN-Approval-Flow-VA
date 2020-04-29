@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_design_topic">
+    <sys_cb_design_topic action="INSERT_OR_UPDATE">
+        <compiled_topic display_value="Update VAfun Records">318bb4481be85810f61b4196bc4bcbf1</compiled_topic>
+        <design_definition>{"type":"FlowTopic","triggers":[{"type":"Trigger","name":"a3fd96ad506b4a7c84b3d9dfd9be0d69","triggerType":"request","applicability":{"type":"Applicability","mode":"script","value":"true"},"id":"a3fd96ad506b4a7c84b3d9dfd9be0d69"}],"goals":[{"name":"primary","trigger_id":"a3fd96ad506b4a7c84b3d9dfd9be0d69","nodes":[{"type":"StartGoal","goal_id":"0cafbb2797cf4a19babeb07da2468361","greeting_msg":{"type":"String","mode":"string","value":""},"id":"8de065079aa14a17b1a8041f65514579","name":"Start"},{"type":"TerminateGoal","goal_id":"0cafbb2797cf4a19babeb07da2468361","confirmation_msg":{"type":"String","mode":"string","value":""},"id":"e21d3c8cdd964b279f6e82a0bd45cb9d","name":"End"}],"edges":[{"type":"Edge","source_node_id":"8de065079aa14a17b1a8041f65514579","target_node_id":"e21d3c8cdd964b279f6e82a0bd45cb9d","id":"5572ba910c2746c29fde9bebd5752323"}],"id":"0cafbb2797cf4a19babeb07da2468361"}],"script_variables":[],"glide_variables":[{"type":"Reference","table":"sys_user","id":"current-user","name":"user"}],"applicability":{"type":"Applicability","mode":"script","value":"true"},"roles":[],"scope":"caf2b8c41ba85810f61b4196bc4bcbc3","domain":"global","id":"3d6bf4c01be85810f61b4196bc4bcb5d","name":"Update VAfun Records","key_phrases":["Update VAfun Records","VAfun Request"],"nlu_provider":"64c023c17300330021a044764df6a70e","nlu_model":"","nlu_model_label":"","nlu_intent":"","nlu_intent_label":"","flexible_conversation_switching":false,"design_category":"5aca7c081be85810f61b4196bc4bcb00","library":false}</design_definition>
+        <design_topic_id>3d6bf4c01be85810f61b4196bc4bcb5d</design_topic_id>
+        <name>Update VAfun Records</name>
+        <sys_class_name>sys_cb_design_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-28 08:01:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>7d8b38481be85810f61b4196bc4bcb07</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FlowTopic</sys_name>
+        <sys_package display_value="VA fundamentals2" source="x_484722_va_fundam">caf2b8c41ba85810f61b4196bc4bcbc3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="VA fundamentals2">caf2b8c41ba85810f61b4196bc4bcbc3</sys_scope>
+        <sys_update_name>sys_cb_design_topic_7d8b38481be85810f61b4196bc4bcb07</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-28 08:01:05</sys_updated_on>
+        <type>FlowTopic</type>
+    </sys_cb_design_topic>
+</record_update>

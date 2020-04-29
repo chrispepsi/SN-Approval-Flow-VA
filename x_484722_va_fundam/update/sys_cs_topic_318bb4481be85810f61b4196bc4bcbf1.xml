@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cs_topic">
+    <sys_cs_topic action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability>true</applicability>
+        <cb_topic_id display_value="Update VAfun Records">3d6bf4c01be85810f61b4196bc4bcb5d</cb_topic_id>
+        <definition>{"id":"3d6bf4c01be85810f61b4196bc4bcb5d","name":"Update VAfun Records","system_topic":false,"vendor_id":"c2f0b8f187033200246ddd4c97cb0bb9","description":"Update VAfun Records","applicability":"true","category":"","key_phrases":["Update VAfun Records","VAfun Request"],"variables":[{"name":"__segment_trigger_a3fd96ad506b4a7c84b3d9dfd9be0d69_done","type":"java.lang.Object","init_value":"false"},{"name":"previous_graph_node","type":"java.lang.Object"}],"fields":[{"type":"Reference","table_name":"sys_user","name":"user","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"Boolean","name":"RootDecisionBranch_758bb44835e858100b353f3be51041f0","unique":false,"default_value":"true","key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_TerminateGoal_e21d3c8cdd964b279f6e82a0bd45cb9d","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_Branch_RootDecisionBranch_358bb44854e8581076e2bfabf6ded6f0","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_Decision_RootDecision_f18bb4484fe85810b451ec5fb581d4f0","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_StartGoal_8de065079aa14a17b1a8041f65514579","unique":false,"key_phrases":[],"static_enum_list":[]}],"actions":[],"tasks":[{"type":"Consumer to system","show_as_button":true,"name":"primary","description":"primary","applicability":"vaVars.__segment_trigger_a3fd96ad506b4a7c84b3d9dfd9be0d69_done==false &amp;&amp; true","mode":"Qmode","key_phrases":[],"greeting_msg":"vaInputs.initialize(\"user\");vaInputs.initialize(\"RootDecisionBranch_758bb44835e858100b353f3be51041f0\");vaInputs.initialize(\"__silent_TerminateGoal_e21d3c8cdd964b279f6e82a0bd45cb9d\");vaInputs.initialize(\"__silent_Decision_RootDecision_f18bb4484fe85810b451ec5fb581d4f0\");vaInputs.initialize(\"__silent_Branch_RootDecisionBranch_358bb44854e8581076e2bfabf6ded6f0\");vaInputs.initialize(\"__silent_StartGoal_8de065079aa14a17b1a8041f65514579\");null;","fields":[{"name":"__silent_Decision_RootDecision_f18bb4484fe85810b451ec5fb581d4f0","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"RootDecision_for_goal_primary___RootDecision_f18bb4484fe85810b451ec5fb581d4f0\";vaInputs.__silent_Decision_RootDecision_f18bb4484fe85810b451ec5fb581d4f0=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"RootDecision_for_goal_primary___RootDecision_f18bb4484fe85810b451ec5fb581d4f0\";vaInputs.RootDecisionBranch_758bb44835e858100b353f3be51041f0=true;null;"},{"name":"__silent_Branch_RootDecisionBranch_358bb44854e8581076e2bfabf6ded6f0","applicable":"vaVars.previous_graph_node==\"RootDecision_for_goal_primary___RootDecision_f18bb4484fe85810b451ec5fb581d4f0\" &amp;&amp; ((vaInputs.RootDecisionBranch_758bb44835e858100b353f3be51041f0.getValue() == true))","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"RootDecisionBranch_358bb44854e8581076e2bfabf6ded6f0___RootDecisionBranch_358bb44854e8581076e2bfabf6ded6f0\";vaInputs.__silent_Branch_RootDecisionBranch_358bb44854e8581076e2bfabf6ded6f0=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"RootDecisionBranch_358bb44854e8581076e2bfabf6ded6f0___RootDecisionBranch_358bb44854e8581076e2bfabf6ded6f0\";null;"},{"name":"__silent_StartGoal_8de065079aa14a17b1a8041f65514579","applicable":"vaVars.previous_graph_node==\"RootDecisionBranch_358bb44854e8581076e2bfabf6ded6f0___RootDecisionBranch_358bb44854e8581076e2bfabf6ded6f0\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"Start___8de065079aa14a17b1a8041f65514579\";vaInputs.__silent_StartGoal_8de065079aa14a17b1a8041f65514579=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"Start___8de065079aa14a17b1a8041f65514579\";null;"},{"name":"__silent_TerminateGoal_e21d3c8cdd964b279f6e82a0bd45cb9d","applicable":"vaVars.previous_graph_node==\"Start___8de065079aa14a17b1a8041f65514579\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"End___e21d3c8cdd964b279f6e82a0bd45cb9d\";vaInputs.__silent_TerminateGoal_e21d3c8cdd964b279f6e82a0bd45cb9d=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"End___e21d3c8cdd964b279f6e82a0bd45cb9d\";vaVars.__segment_trigger_a3fd96ad506b4a7c84b3d9dfd9be0d69_done=true;null;"}],"variables_update":[]}],"roles":[],"active":true,"published":true,"library":false,"flexible_conversation_switching":false,"design_category":"5aca7c081be85810f61b4196bc4bcb00","nlu_provider":"64c023c17300330021a044764df6a70e","nlu_model":"","nlu_intent":"","score":0.0,"visible":true,"sys_scope":"caf2b8c41ba85810f61b4196bc4bcbc3","sys_domain":"global","title":"Update VAfun Records","nlu_intent_label":"","nlu_model_label":""}</definition>
+        <design_category display_value="Virtual Agent topics for the VAfun  Virtual Agent Conversations application">5aca7c081be85810f61b4196bc4bcb00</design_category>
+        <fields/>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <is_system_topic>false</is_system_topic>
+        <key_phrases>Update VAfun Records VAfun Request</key_phrases>
+        <last_published_on>2020-04-28 08:01:05</last_published_on>
+        <library>false</library>
+        <library_usage/>
+        <metaphone>APTT RKST RKRT FFN</metaphone>
+        <name>Update VAfun Records</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider>64c023c17300330021a044764df6a70e</nlu_provider>
+        <published>true</published>
+        <roles/>
+        <sys_class_name>sys_cs_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-28 08:01:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>318bb4481be85810f61b4196bc4bcbf1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Update VAfun Records</sys_name>
+        <sys_package display_value="VA fundamentals2" source="x_484722_va_fundam">caf2b8c41ba85810f61b4196bc4bcbc3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="VA fundamentals2">caf2b8c41ba85810f61b4196bc4bcbc3</sys_scope>
+        <sys_update_name>sys_cs_topic_318bb4481be85810f61b4196bc4bcbf1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-28 08:01:05</sys_updated_on>
+        <title>Update VAfun Records</title>
+        <vendor display_value="ServiceNow">c2f0b8f187033200246ddd4c97cb0bb9</vendor>
+        <visible>true</visible>
+    </sys_cs_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=318bb4481be85810f61b4196bc4bcbf1"/>
+</record_update>

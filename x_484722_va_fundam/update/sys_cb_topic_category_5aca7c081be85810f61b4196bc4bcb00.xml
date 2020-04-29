@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_cb_topic_category">
+    <sys_cb_topic_category action="INSERT_OR_UPDATE">
+        <description>Virtual Agent topics for the VAfun  Virtual Agent Conversations application</description>
+        <name>VA Topics</name>
+        <sys_class_name>sys_cb_topic_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-28 07:58:26</sys_created_on>
+        <sys_id>5aca7c081be85810f61b4196bc4bcb00</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Virtual Agent topics for the VAfun  Virtual Agent Conversations application</sys_name>
+        <sys_package display_value="VA fundamentals2" source="x_484722_va_fundam">caf2b8c41ba85810f61b4196bc4bcbc3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="VA fundamentals2">caf2b8c41ba85810f61b4196bc4bcbc3</sys_scope>
+        <sys_update_name>sys_cb_topic_category_5aca7c081be85810f61b4196bc4bcb00</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-28 07:58:26</sys_updated_on>
+    </sys_cb_topic_category>
+</record_update>
