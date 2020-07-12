@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cs_topic">
+    <sys_cs_topic action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability>true</applicability>
+        <cb_topic_id display_value="レコード検索用トピック">48029b051b341010f61b4196bc4bcb69</cb_topic_id>
+        <definition>{"id":"48029b051b341010f61b4196bc4bcb69","name":"レコード検索用トピック","system_topic":false,"vendor_id":"c2f0b8f187033200246ddd4c97cb0bb9","description":"レコード検索用トピック","applicability":"true","category":"","key_phrases":["レコード検索用トピック","Search record"],"variables":[{"name":"__segment_trigger_d7577b11cc15489eb8c0a23c0fba8a1a_done","type":"java.lang.Object","init_value":"false"},{"name":"previous_graph_node","type":"java.lang.Object"}],"fields":[{"type":"Reference","table_name":"sys_user","name":"user","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"Boolean","name":"RootDecisionBranch_ff025f458634101093853fcd9b648005","unique":false,"default_value":"true","key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_Branch_RootDecisionBranch_bf025f45de341010aa20e8a0d50e1d05","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_TerminateGoal_e3658bada30a4b5dadca9a94b9701c73","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_StartGoal_acb6d6b15a464bdaae52f2a5490f1090","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_LibraryCall_a1f025e5619d42359fac14a7ead780fb","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_Decision_RootDecision_7f025f45f634101018d64d4e0b844605","unique":false,"key_phrases":[],"static_enum_list":[]}],"actions":[],"tasks":[{"type":"Consumer to system","show_as_button":true,"name":"primary","description":"primary","applicability":"vaVars.__segment_trigger_d7577b11cc15489eb8c0a23c0fba8a1a_done==false &amp;&amp; true","mode":"Qmode","key_phrases":[],"greeting_msg":"vaInputs.initialize(\"user\");vaInputs.initialize(\"RootDecisionBranch_ff025f458634101093853fcd9b648005\");vaInputs.initialize(\"__silent_LibraryCall_a1f025e5619d42359fac14a7ead780fb\");vaInputs.initialize(\"__silent_Branch_RootDecisionBranch_bf025f45de341010aa20e8a0d50e1d05\");vaInputs.initialize(\"__silent_TerminateGoal_e3658bada30a4b5dadca9a94b9701c73\");vaInputs.initialize(\"__silent_StartGoal_acb6d6b15a464bdaae52f2a5490f1090\");vaInputs.initialize(\"__silent_Decision_RootDecision_7f025f45f634101018d64d4e0b844605\");null;","fields":[{"name":"__silent_Decision_RootDecision_7f025f45f634101018d64d4e0b844605","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"RootDecision_for_goal_primary___RootDecision_7f025f45f634101018d64d4e0b844605\";vaInputs.__silent_Decision_RootDecision_7f025f45f634101018d64d4e0b844605=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"RootDecision_for_goal_primary___RootDecision_7f025f45f634101018d64d4e0b844605\";vaInputs.RootDecisionBranch_ff025f458634101093853fcd9b648005=true;null;"},{"name":"__silent_Branch_RootDecisionBranch_bf025f45de341010aa20e8a0d50e1d05","applicable":"vaVars.previous_graph_node==\"RootDecision_for_goal_primary___RootDecision_7f025f45f634101018d64d4e0b844605\" &amp;&amp; ((vaInputs.RootDecisionBranch_ff025f458634101093853fcd9b648005.getValue() == true))","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"RootDecisionBranch_bf025f45de341010aa20e8a0d50e1d05___RootDecisionBranch_bf025f45de341010aa20e8a0d50e1d05\";vaInputs.__silent_Branch_RootDecisionBranch_bf025f45de341010aa20e8a0d50e1d05=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"RootDecisionBranch_bf025f45de341010aa20e8a0d50e1d05___RootDecisionBranch_bf025f45de341010aa20e8a0d50e1d05\";null;"},{"name":"__silent_StartGoal_acb6d6b15a464bdaae52f2a5490f1090","applicable":"vaVars.previous_graph_node==\"RootDecisionBranch_bf025f45de341010aa20e8a0d50e1d05___RootDecisionBranch_bf025f45de341010aa20e8a0d50e1d05\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"Start___acb6d6b15a464bdaae52f2a5490f1090\";vaInputs.__silent_StartGoal_acb6d6b15a464bdaae52f2a5490f1090=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"Start___acb6d6b15a464bdaae52f2a5490f1090\";null;"},{"name":"__silent_LibraryCall_a1f025e5619d42359fac14a7ead780fb","applicable":"vaVars.previous_graph_node==\"Start___acb6d6b15a464bdaae52f2a5490f1090\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"レコード検索___a1f025e5619d42359fac14a7ead780fb\";(function execute() {(function execute() {vaSystem.invokeSubTopic('レコード検索', JSON.stringify({\"type\":\"LibraryCall\",\"type\":\"LibraryCall\",\"library_topic_name\":\"レコード検索\",\"library_topic_id\":\"297097051b341010f61b4196bc4bcbf5\",\"parameter-mappings\":[],\"return-value-mappings\":[],\"id\":\"a1f025e5619d42359fac14a7ead780fb\",\"name\":\"レコード検索\",\"goal_id\":\"1e28f002283e4b948f681d7d732c8124\"}));})();})();vaInputs.__silent_LibraryCall_a1f025e5619d42359fac14a7ead780fb=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"レコード検索___a1f025e5619d42359fac14a7ead780fb\";null;"},{"name":"__silent_TerminateGoal_e3658bada30a4b5dadca9a94b9701c73","applicable":"vaVars.previous_graph_node==\"レコード検索___a1f025e5619d42359fac14a7ead780fb\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"End___e3658bada30a4b5dadca9a94b9701c73\";vaInputs.__silent_TerminateGoal_e3658bada30a4b5dadca9a94b9701c73=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"End___e3658bada30a4b5dadca9a94b9701c73\";vaVars.__segment_trigger_d7577b11cc15489eb8c0a23c0fba8a1a_done=true;null;"}],"variables_update":[]}],"roles":[],"active":true,"published":true,"library":false,"flexible_conversation_switching":false,"design_category":"","nlu_provider":"64c023c17300330021a044764df6a70e","nlu_model":"","nlu_intent":"","score":0.0,"visible":true,"sys_scope":"caf2b8c41ba85810f61b4196bc4bcbc3","sys_domain":"global","title":"レコード検索用トピック","nlu_intent_label":"","nlu_model_label":""}</definition>
+        <design_category/>
+        <fields/>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <is_system_topic>false</is_system_topic>
+        <key_phrases>レコード検索用トピック Search record</key_phrases>
+        <last_published_on>2020-05-14 07:48:24</last_published_on>
+        <library>false</library>
+        <library_usage/>
+        <metaphone> SRX RKRT</metaphone>
+        <name>レコード検索用トピック</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider>64c023c17300330021a044764df6a70e</nlu_provider>
+        <published>true</published>
+        <roles/>
+        <sys_class_name>sys_cs_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-14 07:48:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>fb025f451b341010f61b4196bc4bcb06</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>レコード検索用トピック</sys_name>
+        <sys_package display_value="Approval Flow VA " source="x_484722_va_fundam">caf2b8c41ba85810f61b4196bc4bcbc3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Approval Flow VA ">caf2b8c41ba85810f61b4196bc4bcbc3</sys_scope>
+        <sys_update_name>sys_cs_topic_fb025f451b341010f61b4196bc4bcb06</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-14 07:48:24</sys_updated_on>
+        <title>レコード検索用トピック</title>
+        <vendor display_value="ServiceNow">c2f0b8f187033200246ddd4c97cb0bb9</vendor>
+        <visible>true</visible>
+    </sys_cs_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=fb025f451b341010f61b4196bc4bcb06"/>
+</record_update>

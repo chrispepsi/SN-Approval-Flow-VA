@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_design_topic">
+    <sys_cb_design_topic action="INSERT_OR_UPDATE">
+        <compiled_topic display_value="レコード検索用トピック">fb025f451b341010f61b4196bc4bcb06</compiled_topic>
+        <design_definition>{"type":"FlowTopic","triggers":[{"type":"Trigger","name":"d7577b11cc15489eb8c0a23c0fba8a1a","triggerType":"request","applicability":{"type":"Applicability","mode":"script","value":"true"},"id":"d7577b11cc15489eb8c0a23c0fba8a1a"}],"goals":[{"name":"primary","trigger_id":"d7577b11cc15489eb8c0a23c0fba8a1a","nodes":[{"type":"StartGoal","goal_id":"1e28f002283e4b948f681d7d732c8124","greeting_msg":{"type":"String","mode":"string","value":""},"id":"acb6d6b15a464bdaae52f2a5490f1090","name":"Start"},{"type":"TerminateGoal","goal_id":"1e28f002283e4b948f681d7d732c8124","confirmation_msg":{"type":"String","mode":"string","value":""},"id":"e3658bada30a4b5dadca9a94b9701c73","name":"End"},{"type":"LibraryCall","library_topic_name":"レコード検索","library_topic_id":"297097051b341010f61b4196bc4bcbf5","parameter-mappings":[],"return-value-mappings":[],"id":"a1f025e5619d42359fac14a7ead780fb","name":"レコード検索","goal_id":"1e28f002283e4b948f681d7d732c8124"}],"edges":[{"type":"Edge","source_node_id":"acb6d6b15a464bdaae52f2a5490f1090","target_node_id":"a1f025e5619d42359fac14a7ead780fb","id":"d0a2721e27cf4e02913a0f70513a4c70"},{"type":"Edge","source_node_id":"a1f025e5619d42359fac14a7ead780fb","target_node_id":"e3658bada30a4b5dadca9a94b9701c73","id":"1bf359e8f7764db4a7d2623e4d4340b8"}],"id":"1e28f002283e4b948f681d7d732c8124"}],"script_variables":[],"glide_variables":[{"type":"Reference","table":"sys_user","id":"current-user","name":"user"}],"applicability":{"type":"Applicability","mode":"script","value":"true"},"roles":[],"scope":"caf2b8c41ba85810f61b4196bc4bcbc3","domain":"global","id":"48029b051b341010f61b4196bc4bcb69","name":"レコード検索用トピック","key_phrases":["レコード検索用トピック","Search record"],"nlu_provider":"64c023c17300330021a044764df6a70e","nlu_model":"","nlu_model_label":"","nlu_intent":"","nlu_intent_label":"","flexible_conversation_switching":false,"design_category":"","library":false}</design_definition>
+        <design_topic_id>48029b051b341010f61b4196bc4bcb69</design_topic_id>
+        <name>レコード検索用トピック</name>
+        <sys_class_name>sys_cb_design_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-14 07:48:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>bf0253851b341010f61b4196bc4bcbde</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FlowTopic</sys_name>
+        <sys_package display_value="Approval Flow VA " source="x_484722_va_fundam">caf2b8c41ba85810f61b4196bc4bcbc3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Approval Flow VA ">caf2b8c41ba85810f61b4196bc4bcbc3</sys_scope>
+        <sys_update_name>sys_cb_design_topic_bf0253851b341010f61b4196bc4bcbde</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-14 07:48:24</sys_updated_on>
+        <type>FlowTopic</type>
+    </sys_cb_design_topic>
+</record_update>

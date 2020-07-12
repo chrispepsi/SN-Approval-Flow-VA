@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_484722_va_fundam.SetRequested</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>SetRequested</name>
+        <script><![CDATA[var SetRequested = Class.create();
+SetRequested.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    checkState: function() {
+        var objList = this.getParameter('sysparm_objList');
+        var ga = new GlideAggregate('x_484722_va_fundam_vafun');
+        ga.addQuery('sys_id', 'IN', objList.toString());
+		ga.addQuery('state', '!=', 2);
+        ga.addAggregate('COUNT');
+        ga.query();
+        ga.next();
+        vCount = ga.getAggregate('COUNT');
+        if (vCount > 0) {
+            this.getRootElement().setAttribute('answer', 'yes');
+        } else {
+            var gr = new GlideRecord('x_484722_va_fundam_vafun');
+            gr.addQuery('sys_id', 'IN', objList.toString());
+            gr.query();
+			while(gr.next()){
+				gr.state = 13;
+				gr.update();
+			}
+            this.getRootElement().setAttribute('answer', 'no');
+        }
+    },
+
+    type: 'SetRequested'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-06 00:44:54</sys_created_on>
+        <sys_id>3e9948a01b111010f61b4196bc4bcb7b</sys_id>
+        <sys_mod_count>38</sys_mod_count>
+        <sys_name>SetRequested</sys_name>
+        <sys_package display_value="Approval Flow VA " source="x_484722_va_fundam">caf2b8c41ba85810f61b4196bc4bcbc3</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Approval Flow VA ">caf2b8c41ba85810f61b4196bc4bcbc3</sys_scope>
+        <sys_update_name>sys_script_include_3e9948a01b111010f61b4196bc4bcb7b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-06 08:40:54</sys_updated_on>
+    </sys_script_include>
+</record_update>

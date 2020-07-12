@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <category display_value="Virtual Agent topics for the VAfun  Virtual Agent Conversations application">5aca7c081be85810f61b4196bc4bcb00</category>
+        <connect_queue/>
+        <description>VAfunのレコードを更新</description>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <graph>{
+  "goals": {
+    "f59a09810c834e8fa8c561f5bb326fd3": {
+      "id": "f59a09810c834e8fa8c561f5bb326fd3",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "c2a88fc316a5486b81c2751aaa13f614": {
+          "id": "c2a88fc316a5486b81c2751aaa13f614",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "value": "I can help you find and update VAfun records for a type of request.",
+            "mode": "simple"
+          }
+        },
+        "e46069262bba4cbd80e062212f67013a": {
+          "id": "e46069262bba4cbd80e062212f67013a",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "value": "Ask again when you need to update other VAfun records.",
+            "mode": "simple"
+          }
+        },
+        "47a417e0ebb64f758aaca132e249f2aa": {
+          "stepType": "ChoicePrompt",
+          "name": "VAfun type",
+          "prompt": {
+            "value": "Which type of VAfun record would you like to view?",
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "optional": false,
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "b883892b6bb2480d80964a4f0b8a3756",
+          "id": "47a417e0ebb64f758aaca132e249f2aa",
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "entity": ""
+        },
+        "a93f78a054eb46b28ae836b44fe9b3bf": {
+          "stepType": "ReferenceChoicePrompt",
+          "name": "VAfun List",
+          "prompt": {
+            "value": "Select a VAfun record to view.",
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "optional": false,
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "f0bc69836d7245d48eb441afe96668e1",
+          "id": "a93f78a054eb46b28ae836b44fe9b3bf",
+          "mode": "glide_record",
+          "script": "",
+          "noRecordsResponseMsg": {
+            "value": "You have no open VAfun records.",
+            "mode": "simple"
+          },
+          "condition": {
+            "mode": "glide_query",
+            "value": "active=true^request_type={{vaInputs.vafun_type}}^requested_for={{vaInputs.user}}"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "entity": ""
+        },
+        "4a7178900f90447da5e610590fc5ec77": {
+          "id": "4a7178900f90447da5e610590fc5ec77",
+          "stepType": "TextOutput",
+          "name": "Confirm VAfun Type",
+          "value": {
+            "value": "You selected: {{vaInputs.vafun_type}}",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "df472129d93b4a759985c63957ebb7cf": {
+          "id": "df472129d93b4a759985c63957ebb7cf",
+          "stepType": "RecordOutput",
+          "name": "VAfun Card",
+          "variableId": "f0bc69836d7245d48eb441afe96668e1",
+          "mode": "variable",
+          "tableName": "x_484722_va_fundam_vafun",
+          "fields": [
+            "priority",
+            "short_description",
+            "when_needed"
+          ],
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "condition": {
+            "mode": "",
+            "value": ""
+          }
+        },
+        "43de4ccb29e64fe49b7eb35cd971527b": {
+          "id": "43de4ccb29e64fe49b7eb35cd971527b",
+          "stepType": "Decision",
+          "name": "Find more VAfun records"
+        },
+        "b1029a89b71d4f539d786ac58d86c75b": {
+          "id": "b1029a89b71d4f539d786ac58d86c75b",
+          "stepType": "Prompt",
+          "name": "Search Again",
+          "prompt": {
+            "value": "Would you like to view another NeedIt Record?",
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "optional": false,
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "entity": "",
+          "variableId": "4a6c05e645884ebaa8ff360a759424cf"
+        },
+        "ca7eb4baf45b477ba22710a93e34e903": {
+          "stepType": "ChoicePrompt",
+          "name": "What to update",
+          "prompt": {
+            "value": "Update Shot description or Nothing.",
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "optional": false,
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "7956430235414881a52bf2e5231f2c48",
+          "id": "ca7eb4baf45b477ba22710a93e34e903",
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "entity": ""
+        },
+        "484751e4c7804fb3a1323027c360edb9": {
+          "id": "484751e4c7804fb3a1323027c360edb9",
+          "stepType": "Decision",
+          "name": "Update field"
+        },
+        "381e986e02034891954b4fd5ffd91e91": {
+          "id": "381e986e02034891954b4fd5ffd91e91",
+          "stepType": "Prompt",
+          "name": "New Short Description",
+          "prompt": {
+            "value": "Enter the New Shot Description",
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "optional": false,
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "entity": "",
+          "variableId": "ce86832251bf46b998e4ba90bb46d872"
+        },
+        "858fff53b47345a8b9cac3e67009d03e": {
+          "id": "858fff53b47345a8b9cac3e67009d03e",
+          "stepType": "CrudAction",
+          "name": "Change Short Description",
+          "template": "short_description={{vaInputs.new_short_description}}",
+          "mode": "update",
+          "record": "f0bc69836d7245d48eb441afe96668e1",
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "variableId": "33c4314c7bb94803ab11e8eacf1d8108"
+        },
+        "23fe4dc6ffd74411b7c75e55c57987c5": {
+          "id": "23fe4dc6ffd74411b7c75e55c57987c5",
+          "stepType": "RecordOutput",
+          "name": "VAfun Card",
+          "variableId": "f0bc69836d7245d48eb441afe96668e1",
+          "mode": "variable",
+          "tableName": "x_484722_va_fundam_vafun",
+          "fields": [
+            "priority",
+            "short_description",
+            "when_needed"
+          ],
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "condition": {
+            "mode": "",
+            "value": ""
+          }
+        },
+        "1496d6441b9945d0a65798c1b5701488": {
+          "id": "1496d6441b9945d0a65798c1b5701488",
+          "stepType": "ReusableTopic",
+          "name": "レコード検索",
+          "fields": [],
+          "reusableTopicChoice": "レコード検索",
+          "reusableTopicId": "297097051b341010f61b4196bc4bcbf5",
+          "inputs": {},
+          "variableIds": [],
+          "outputs": []
+        },
+        "e092a6ad2b75445a81ce87cd4d41433b": {
+          "id": "e092a6ad2b75445a81ce87cd4d41433b",
+          "stepType": "Decision",
+          "name": "Decision"
+        }
+      },
+      "edges": [
+        {
+          "id": "e325d2e3ab7a49ddba022dd29db6b801",
+          "edgeType": "Edge",
+          "source": "ca7eb4baf45b477ba22710a93e34e903",
+          "target": "484751e4c7804fb3a1323027c360edb9",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "224452e98f1a4a448f9b11bac89699dc",
+          "edgeType": "Edge",
+          "source": "c2a88fc316a5486b81c2751aaa13f614",
+          "target": "47a417e0ebb64f758aaca132e249f2aa",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "07191097ce884b95ab575e05df22e034",
+          "edgeType": "Edge",
+          "source": "47a417e0ebb64f758aaca132e249f2aa",
+          "target": "4a7178900f90447da5e610590fc5ec77",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "4cd365c9a31145a18478de02f0e494c4",
+          "edgeType": "Branch",
+          "source": "43de4ccb29e64fe49b7eb35cd971527b",
+          "target": "e46069262bba4cbd80e062212f67013a",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "search_again=",
+            "mode": "query"
+          },
+          "label": "No"
+        },
+        {
+          "id": "4b530718817f4993a5945f2a711554e5",
+          "edgeType": "Edge",
+          "source": "df472129d93b4a759985c63957ebb7cf",
+          "target": "b1029a89b71d4f539d786ac58d86c75b",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "14fdc364a528489ba433fb37395e7e7e",
+          "edgeType": "Edge",
+          "source": "b1029a89b71d4f539d786ac58d86c75b",
+          "target": "43de4ccb29e64fe49b7eb35cd971527b",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "17051121215b43c3883f5647d8f2c8bf",
+          "edgeType": "Branch",
+          "source": "43de4ccb29e64fe49b7eb35cd971527b",
+          "target": "47a417e0ebb64f758aaca132e249f2aa",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "search_again=true",
+            "mode": "query"
+          },
+          "label": "Yes"
+        },
+        {
+          "id": "9be56f2dbc994b2698b07031c90985fa",
+          "edgeType": "Branch",
+          "source": "484751e4c7804fb3a1323027c360edb9",
+          "target": "b1029a89b71d4f539d786ac58d86c75b",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "what_to_update=2",
+            "mode": "query"
+          },
+          "label": "Nothing"
+        },
+        {
+          "id": "25c7f761c9f140a3bf9ac2c1c3813ffd",
+          "edgeType": "Branch",
+          "source": "484751e4c7804fb3a1323027c360edb9",
+          "target": "381e986e02034891954b4fd5ffd91e91",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "what_to_update=1",
+            "mode": "query"
+          },
+          "label": "Shot Description"
+        },
+        {
+          "id": "bd8ca49da8494591bd611a5a035199d0",
+          "edgeType": "Edge",
+          "source": "381e986e02034891954b4fd5ffd91e91",
+          "target": "858fff53b47345a8b9cac3e67009d03e",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "cb3fac1dfe784fb9af5d82eb8d0089b9",
+          "edgeType": "Edge",
+          "source": "858fff53b47345a8b9cac3e67009d03e",
+          "target": "df472129d93b4a759985c63957ebb7cf",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "c5a0a3d001a347b98958d8b6eb2096f9",
+          "edgeType": "Edge",
+          "source": "a93f78a054eb46b28ae836b44fe9b3bf",
+          "target": "23fe4dc6ffd74411b7c75e55c57987c5",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "1da829017c954deaa8250e9383ffa138",
+          "edgeType": "Edge",
+          "source": "23fe4dc6ffd74411b7c75e55c57987c5",
+          "target": "ca7eb4baf45b477ba22710a93e34e903",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "c3a5b9a19bb448d5bb9b461ba23a4e75",
+          "edgeType": "Edge",
+          "source": "1496d6441b9945d0a65798c1b5701488",
+          "target": "a93f78a054eb46b28ae836b44fe9b3bf",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "a596055a93164aec98dc668b31d1c105",
+          "edgeType": "Edge",
+          "source": "4a7178900f90447da5e610590fc5ec77",
+          "target": "e092a6ad2b75445a81ce87cd4d41433b",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "ebe8068e13db4ce49e3e7d2d0f0fe145",
+          "edgeType": "Branch",
+          "source": "e092a6ad2b75445a81ce87cd4d41433b",
+          "target": "1496d6441b9945d0a65798c1b5701488",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vafun_type!=return",
+            "mode": "query"
+          },
+          "label": "Always"
+        },
+        {
+          "id": "fdae9cf333144392b97f1a55404be86e",
+          "edgeType": "Branch",
+          "source": "e092a6ad2b75445a81ce87cd4d41433b",
+          "target": "47a417e0ebb64f758aaca132e249f2aa",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vafun_type=return",
+            "mode": "query"
+          },
+          "label": "Return"
+        },
+        {
+          "id": "9a043b8e30484cd6aca93aae5b76b709",
+          "edgeType": "Branch",
+          "source": "484751e4c7804fb3a1323027c360edb9",
+          "target": "a93f78a054eb46b28ae836b44fe9b3bf",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "what_to_update=3",
+            "mode": "query"
+          },
+          "label": "Return"
+        }
+      ]
+    }
+  },
+  "graph_api_version": "1.0.16",
+  "variables": {
+    "72055e0789c04d87a6f0ec6d161d998d": {
+      "category": "vaInputs",
+      "id": "72055e0789c04d87a6f0ec6d161d998d",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "b883892b6bb2480d80964a4f0b8a3756": {
+      "id": "b883892b6bb2480d80964a4f0b8a3756",
+      "name": "vafun_type",
+      "label": "VAfun Type",
+      "varType": "choice",
+      "choices": [
+        {
+          "label": "Legal",
+          "value": "legal"
+        },
+        {
+          "label": "Facilities",
+          "value": "facilities",
+          "checked": true
+        },
+        {
+          "label": "Human Resources",
+          "value": "hr",
+          "checked": true
+        },
+        {
+          "label": "Return",
+          "value": "return",
+          "checked": true
+        }
+      ],
+      "category": "vaInputs"
+    },
+    "f0bc69836d7245d48eb441afe96668e1": {
+      "id": "f0bc69836d7245d48eb441afe96668e1",
+      "name": "vafun_list",
+      "label": "VAfun List",
+      "varType": "reference",
+      "table": "x_484722_va_fundam_vafun",
+      "category": "vaInputs"
+    },
+    "4a6c05e645884ebaa8ff360a759424cf": {
+      "id": "4a6c05e645884ebaa8ff360a759424cf",
+      "name": "search_again",
+      "label": "Search Again",
+      "varType": "boolean",
+      "category": "vaInputs"
+    },
+    "7956430235414881a52bf2e5231f2c48": {
+      "id": "7956430235414881a52bf2e5231f2c48",
+      "name": "what_to_update",
+      "label": "What To Update",
+      "varType": "choice",
+      "choices": [
+        {
+          "label": "Short description",
+          "value": "1"
+        },
+        {
+          "label": "Nothing",
+          "value": "2",
+          "checked": true
+        },
+        {
+          "label": "Return",
+          "value": "3",
+          "checked": true
+        }
+      ],
+      "category": "vaInputs"
+    },
+    "ce86832251bf46b998e4ba90bb46d872": {
+      "id": "ce86832251bf46b998e4ba90bb46d872",
+      "name": "new_short_description",
+      "label": "New Short Description",
+      "varType": "string",
+      "category": "vaInputs"
+    },
+    "33c4314c7bb94803ab11e8eacf1d8108": {
+      "id": "33c4314c7bb94803ab11e8eacf1d8108",
+      "name": "change_short_description",
+      "label": "Change Short Description",
+      "varType": "reference",
+      "table": "",
+      "inactive": true,
+      "category": "vaInputs"
+    }
+  }
+}</graph>
+        <key_phrases>Update VAfun Records,VAfun Request,testkey,レコード更新,パソコン申請インシデント更新</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>レコード更新</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider>64c023c17300330021a044764df6a70e</nlu_provider>
+        <roles>itil</roles>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-11 12:23:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>8a3470d41b741010f61b4196bc4bcb78</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>レコード更新</sys_name>
+        <sys_package display_value="Approval Flow VA " source="x_484722_va_fundam">caf2b8c41ba85810f61b4196bc4bcbc3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Approval Flow VA ">caf2b8c41ba85810f61b4196bc4bcbc3</sys_scope>
+        <sys_update_name>sys_cb_topic_8a3470d41b741010f61b4196bc4bcb78</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-14 07:55:50</sys_updated_on>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=8a3470d41b741010f61b4196bc4bcb78"/>
+</record_update>

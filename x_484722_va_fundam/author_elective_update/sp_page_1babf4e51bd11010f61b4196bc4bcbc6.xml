@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="DELETE">
+        <category>custom</category>
+        <css/>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <id>grants_detail</id>
+        <internal>false</internal>
+        <public>false</public>
+        <roles/>
+        <short_description/>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-09 06:39:42</sys_created_on>
+        <sys_id>1babf4e51bd11010f61b4196bc4bcbc6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>grants_detail</sys_name>
+        <sys_package display_value="VA fundamentals2" source="x_484722_va_fundam">caf2b8c41ba85810f61b4196bc4bcbc3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="VA fundamentals2">caf2b8c41ba85810f61b4196bc4bcbc3</sys_scope>
+        <sys_update_name>sp_page_1babf4e51bd11010f61b4196bc4bcbc6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-09 06:39:42</sys_updated_on>
+        <title>Grants Detail</title>
+    </sp_page>
+    <sys_translated_text action="DELETE" query="documentkey=1babf4e51bd11010f61b4196bc4bcbc6"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Approval Flow VA ">caf2b8c41ba85810f61b4196bc4bcbc3</application>
+        <file_path/>
+        <instance_id>64eebd9cdb5b9fc4439ef70fbf961905</instance_id>
+        <instance_name>dev64106</instance_name>
+        <name>sp_page_1babf4e51bd11010f61b4196bc4bcbc6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page"><sp_page action="INSERT_OR_UPDATE"><category>custom</category><css/><draft>false</draft><dynamic_title_structure/><id>grants_detail</id><internal>false</internal><public>false</public><roles/><short_description/><sys_class_name>sp_page</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-06-09 06:39:42</sys_created_on><sys_id>1babf4e51bd11010f61b4196bc4bcbc6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>grants_detail</sys_name><sys_package display_value="VA fundamentals2" source="x_484722_va_fundam">caf2b8c41ba85810f61b4196bc4bcbc3</sys_package><sys_policy/><sys_scope display_value="VA fundamentals2">caf2b8c41ba85810f61b4196bc4bcbc3</sys_scope><sys_update_name>sp_page_1babf4e51bd11010f61b4196bc4bcbc6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-06-09 06:39:42</sys_updated_on><title>Grants Detail</title></sp_page><sys_translated_text action="delete_multiple" query="documentkey=1babf4e51bd11010f61b4196bc4bcbc6"/></record_update>]]></payload>
+        <payload_hash>903926265</payload_hash>
+        <record_name>grants_detail</record_name>
+        <reverted_from/>
+        <source>6b77b5181be49810f61b4196bc4bcba0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-09 06:39:42</sys_created_on>
+        <sys_id>17abf4e51bd11010f61b4196bc4bcbca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17297ce5b870000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-09 06:39:42</sys_updated_on>
+        <type>Page</type>
+        <update_guid>1fabf4e59ed11010739a35477a0e74c9</update_guid>
+        <update_guid_history>1fabf4e59ed11010739a35477a0e74c9:903926265</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="grants_detail">853791f11ba15010f61b4196bc4bcb26</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-22 13:34:10</sys_created_on>
+        <sys_db_object display_value="" name="sp_page">sp_page</sys_db_object>
+        <sys_id>1ffeb6cb25154adb9499bfd4654e9659</sys_id>
+        <sys_metadata>1babf4e51bd11010f61b4196bc4bcbc6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>grants_detail</sys_name>
+        <sys_package display_value="Approval Flow VA " source="x_484722_va_fundam">caf2b8c41ba85810f61b4196bc4bcbc3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Approval Flow VA ">caf2b8c41ba85810f61b4196bc4bcbc3</sys_scope>
+        <sys_scope_delete display_value="">4310b6dde81d4039b7e6532b9f337d31</sys_scope_delete>
+        <sys_update_name>sp_page_1babf4e51bd11010f61b4196bc4bcbc6</sys_update_name>
+        <sys_update_version display_value="sp_page_1babf4e51bd11010f61b4196bc4bcbc6">17abf4e51bd11010f61b4196bc4bcbca</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-22 13:34:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

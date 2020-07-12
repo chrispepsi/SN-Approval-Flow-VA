@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_design_topic">
+    <sys_cb_design_topic action="INSERT_OR_UPDATE">
+        <compiled_topic display_value="レコード検索">297097051b341010f61b4196bc4bcbf5</compiled_topic>
+        <design_definition>{"type":"FlowTopic","triggers":[{"type":"Trigger","name":"2fed37a8e1a742f4a89ebcb2a4f2ac8f","triggerType":"request","applicability":{"type":"Applicability","mode":"script","value":"true"},"id":"2fed37a8e1a742f4a89ebcb2a4f2ac8f"}],"goals":[{"name":"primary","trigger_id":"2fed37a8e1a742f4a89ebcb2a4f2ac8f","nodes":[{"type":"StartGoal","goal_id":"3d02a5bfd20a4b30997c81400edebaf6","greeting_msg":{"type":"String","mode":"string","value":"gs.getMessageLang(\"Search record\", vaContext.getRequesterLang())"},"id":"b5ec32b66b06490baca79a52b4deb9f8","name":"Start"},{"type":"TerminateGoal","goal_id":"3d02a5bfd20a4b30997c81400edebaf6","confirmation_msg":{"type":"String","mode":"string","value":""},"id":"e21747e00e214ef1997e70e0126cb1e1","name":"End"}],"edges":[{"type":"Edge","source_node_id":"b5ec32b66b06490baca79a52b4deb9f8","target_node_id":"e21747e00e214ef1997e70e0126cb1e1","id":"aad833c93e9e4c3b82a75bf16d1eab3e"}],"id":"3d02a5bfd20a4b30997c81400edebaf6"}],"script_variables":[],"glide_variables":[{"type":"Reference","table":"sys_user","id":"current-user","name":"user"}],"applicability":{"type":"Applicability","mode":"script","value":"true"},"roles":[],"scope":"global","library-usage":{"type":"Library","input-parameters":[],"return-values-mapping":[]},"domain":"global","id":"1d4f03411b701010f61b4196bc4bcb28","name":"レコード検索","key_phrases":[],"nlu_provider":"64c023c17300330021a044764df6a70e","nlu_model":"","nlu_model_label":"","nlu_intent":"","nlu_intent_label":"","flexible_conversation_switching":true,"design_category":"5aca7c081be85810f61b4196bc4bcb00","library":true}</design_definition>
+        <design_topic_id>1d4f03411b701010f61b4196bc4bcb28</design_topic_id>
+        <name>レコード検索</name>
+        <sys_class_name>sys_cb_design_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-14 07:41:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>217097051b341010f61b4196bc4bcbfb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FlowTopic</sys_name>
+        <sys_package display_value="Approval Flow VA " source="x_484722_va_fundam">caf2b8c41ba85810f61b4196bc4bcbc3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Approval Flow VA ">caf2b8c41ba85810f61b4196bc4bcbc3</sys_scope>
+        <sys_update_name>sys_cb_design_topic_217097051b341010f61b4196bc4bcbfb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-14 07:41:25</sys_updated_on>
+        <type>FlowTopic</type>
+    </sys_cb_design_topic>
+</record_update>
