@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="VA List Approval" language="en" table="x_484722_va_fundam_va_list_approval">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>VA List Approval</label>
+            <language>en</language>
+            <name>x_484722_va_fundam_va_list_approval</name>
+            <plural>VA List Approvals</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-24 06:19:42</sys_created_on>
+            <sys_id>913973771bd31010f61b4196bc4bcbc6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>VA List Approval</sys_name>
+            <sys_package display_value="Approval Flow VA " source="x_484722_va_fundam">caf2b8c41ba85810f61b4196bc4bcbc3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Approval Flow VA ">caf2b8c41ba85810f61b4196bc4bcbc3</sys_scope>
+            <sys_update_name>sys_documentation_x_484722_va_fundam_va_list_approval__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-24 06:19:42</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

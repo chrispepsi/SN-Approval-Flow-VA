@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="VADoc" max_length="40" name="x_484722_va_fundam_vadoc" sizeclass="2" type="collection">
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="division" max_length="200" name="division" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="DocName" max_length="200" name="docname" type="string"/>
+        <element label="RefDoc" max_length="40" name="refdoc" type="file_attachment"/>
+    </element>
+</database>

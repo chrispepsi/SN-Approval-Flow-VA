@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Va Fundam M2m Vadocs Va Task Lists" max_length="40" name="x_484722_va_fundam_m2m_vadocs_va_task_lists" sizeclass="0" type="collection">
+        <element attributes="encode_utf8=false" label="VADoc" max_length="32" name="vadoc" reference="x_484722_va_fundam_vadoc" type="reference"/>
+        <element attributes="encode_utf8=false" label="VA Task List" max_length="32" name="va_task_list" reference="x_484722_va_fundam_va_task_list" type="reference"/>
+        <index name="index">
+            <element name="vadoc"/>
+        </index>
+        <index name="index2">
+            <element name="va_task_list"/>
+        </index>
+    </element>
+</database>

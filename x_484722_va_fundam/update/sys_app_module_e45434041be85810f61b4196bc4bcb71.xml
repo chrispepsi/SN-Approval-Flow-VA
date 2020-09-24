@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
     <sys_app_module action="INSERT_OR_UPDATE">
         <active>true</active>
-        <application display_value="Varecord">ac5434041be85810f61b4196bc4bcb6d</application>
+        <application display_value="VAfun">ac5434041be85810f61b4196bc4bcb6d</application>
         <assessment/>
         <device_type/>
         <filter/>
@@ -13,7 +13,7 @@
         <mobile_title>VAfuns</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_484722_va_fundam_vafun</name>
-        <order/>
+        <order>510</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
@@ -24,7 +24,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e45434041be85810f61b4196bc4bcb71</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>VAfuns</sys_name>
         <sys_overrides/>
         <sys_package display_value="Approval Flow VA " source="x_484722_va_fundam">caf2b8c41ba85810f61b4196bc4bcbc3</sys_package>
@@ -32,7 +32,7 @@
         <sys_scope display_value="Approval Flow VA ">caf2b8c41ba85810f61b4196bc4bcbc3</sys_scope>
         <sys_update_name>sys_app_module_e45434041be85810f61b4196bc4bcb71</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-04-28 07:29:36</sys_updated_on>
+        <sys_updated_on>2020-09-24 06:00:55</sys_updated_on>
         <timeline_page/>
         <title>VAfuns</title>
         <uncancelable>false</uncancelable>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
     <sys_ui_module action="INSERT_OR_UPDATE">
         <active>true</active>
-        <application display_value="Varecord">e05434041be85810f61b4196bc4bcb75</application>
+        <application display_value="VAfun">e05434041be85810f61b4196bc4bcb75</application>
         <filter/>
         <name>VAfuns</name>
         <order/>

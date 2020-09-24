@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element extends="task" label="VAfun" max_length="40" name="x_484722_va_fundam_vafun" sizeclass="59" type="collection">
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="ChoiceList" max_length="40" name="choicelist" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="TestA" sequence="0" value="testa"/>
+                <element inactive_on_update="false" label="-TBDTARGET-x_484722_va_fundam_vafun" sequence="1" value="-TBDTARGET-x_484722_va_fundam_vafun"/>
+                <element inactive_on_update="false" label="eee" sequence="2" value="eee"/>
+                <element inactive_on_update="false" label="12e" sequence="3" value="12e"/>
+            </choice>
+        </element>
         <element label="Other" max_length="40" name="other" type="string"/>
         <element label="Requested for" mandatory="true" max_length="32" name="requested_for" reference="sys_user" type="reference"/>
         <element label="Requested for email" max_length="40" name="requested_for_email" type="string"/>

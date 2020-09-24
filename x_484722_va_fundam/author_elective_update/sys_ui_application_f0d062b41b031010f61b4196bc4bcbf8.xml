@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="DELETE">
+        <active>true</active>
+        <hint/>
+        <name>VA Task Detail</name>
+        <order/>
+        <roles>x_484722_va_fundam.va_task_detail_user</roles>
+        <sys_class_name>sys_ui_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-02 05:56:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f0d062b41b031010f61b4196bc4bcbf8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>VA Task Detail</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Approval Flow VA " source="x_484722_va_fundam">caf2b8c41ba85810f61b4196bc4bcbc3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Approval Flow VA ">caf2b8c41ba85810f61b4196bc4bcbc3</sys_scope>
+        <sys_update_name>sys_ui_application_f0d062b41b031010f61b4196bc4bcbf8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-02 05:56:05</sys_updated_on>
+    </sys_ui_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Approval Flow VA ">caf2b8c41ba85810f61b4196bc4bcbc3</application>
+        <file_path/>
+        <instance_id>64eebd9cdb5b9fc4439ef70fbf961905</instance_id>
+        <instance_name>dev64106</instance_name>
+        <name>sys_ui_application_f0d062b41b031010f61b4196bc4bcbf8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application"><sys_ui_application action="INSERT_OR_UPDATE"><active>true</active><hint/><name>VA Task Detail</name><order/><roles>x_484722_va_fundam.va_task_detail_user</roles><sys_class_name>sys_ui_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-09-02 05:56:05</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>f0d062b41b031010f61b4196bc4bcbf8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>VA Task Detail</sys_name><sys_overrides/><sys_package display_value="Approval Flow VA " source="x_484722_va_fundam">caf2b8c41ba85810f61b4196bc4bcbc3</sys_package><sys_policy/><sys_scope display_value="Approval Flow VA ">caf2b8c41ba85810f61b4196bc4bcbc3</sys_scope><sys_update_name>sys_ui_application_f0d062b41b031010f61b4196bc4bcbf8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-09-02 05:56:05</sys_updated_on></sys_ui_application></record_update>]]></payload>
+        <payload_hash>-1560652838</payload_hash>
+        <record_name>VA Task Detail</record_name>
+        <reverted_from/>
+        <source>6b77b5181be49810f61b4196bc4bcba0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-02 05:56:05</sys_created_on>
+        <sys_id>49d062b41b031010f61b4196bc4bcbf9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1744d62f6ce0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-02 05:56:05</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>b0d062b4cf031010fcf49d1df5c3dff9</update_guid>
+        <update_guid_history>b0d062b4cf031010fcf49d1df5c3dff9:-1560652838</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-11 01:25:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_application">sys_ui_application</sys_db_object>
+        <sys_id>39fba40d7d4e4a2c8198a6e24ff72310</sys_id>
+        <sys_metadata>f0d062b41b031010f61b4196bc4bcbf8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>VA Task Detail</sys_name>
+        <sys_package display_value="Approval Flow VA " source="x_484722_va_fundam">caf2b8c41ba85810f61b4196bc4bcbc3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Approval Flow VA ">caf2b8c41ba85810f61b4196bc4bcbc3</sys_scope>
+        <sys_scope_delete display_value="">4310b6dde81d4039b7e6532b9f337d31</sys_scope_delete>
+        <sys_update_name>sys_ui_application_f0d062b41b031010f61b4196bc4bcbf8</sys_update_name>
+        <sys_update_version display_value="sys_ui_application_f0d062b41b031010f61b4196bc4bcbf8">49d062b41b031010f61b4196bc4bcbf9</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-11 01:25:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
