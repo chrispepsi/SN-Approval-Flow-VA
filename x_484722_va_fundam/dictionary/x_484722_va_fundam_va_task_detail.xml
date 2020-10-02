@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="VA Task Detail" max_length="40" name="x_484722_va_fundam_va_task_detail" sizeclass="1" type="collection">
-        <element label="Detail1" max_length="40" name="detail1" type="string"/>
-        <element label="Detail2" max_length="40" name="detail2" type="string"/>
-        <element label="Detail3" max_length="40" name="detail3" type="string"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="vaList" max_length="32" name="valist" reference="x_484722_va_fundam_va_task_list" type="reference"/>
-    </element>
-</database>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="VAfun">ac5434041be85810f61b4196bc4bcb6d</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>VA Task Details</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_484722_va_fundam_va_task_detail</name>
+        <order>520</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_484722_va_fundam.va_task_detail_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-02 05:56:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7cd062b41b031010f61b4196bc4bcbf5</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>VA Task Details</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Approval Flow VA " source="x_484722_va_fundam">caf2b8c41ba85810f61b4196bc4bcbc3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Approval Flow VA ">caf2b8c41ba85810f61b4196bc4bcbc3</sys_scope>
+        <sys_update_name>sys_app_module_7cd062b41b031010f61b4196bc4bcbf5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-24 06:01:07</sys_updated_on>
+        <timeline_page/>
+        <title>VA Task Details</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Approval Flow VA ">caf2b8c41ba85810f61b4196bc4bcbc3</application>
+        <file_path/>
+        <instance_id>64eebd9cdb5b9fc4439ef70fbf961905</instance_id>
+        <instance_name>dev64106</instance_name>
+        <name>sys_app_module_7cd062b41b031010f61b4196bc4bcbf5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="VAfun">ac5434041be85810f61b4196bc4bcb6d</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>VA Task Details</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_484722_va_fundam_va_task_detail</name><order>520</order><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_484722_va_fundam.va_task_detail_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-09-02 05:56:05</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>7cd062b41b031010f61b4196bc4bcbf5</sys_id><sys_mod_count>3</sys_mod_count><sys_name>VA Task Details</sys_name><sys_overrides/><sys_package display_value="Approval Flow VA " source="x_484722_va_fundam">caf2b8c41ba85810f61b4196bc4bcbc3</sys_package><sys_policy/><sys_scope display_value="Approval Flow VA ">caf2b8c41ba85810f61b4196bc4bcbc3</sys_scope><sys_update_name>sys_app_module_7cd062b41b031010f61b4196bc4bcbf5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-09-24 06:01:07</sys_updated_on><timeline_page/><title>VA Task Details</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>1095231529</payload_hash>
+        <record_name>VA Task Details</record_name>
+        <reverted_from/>
+        <source>6b77b5181be49810f61b4196bc4bcba0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-24 06:01:07</sys_created_on>
+        <sys_id>d5f433b31bd31010f61b4196bc4bcba0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>174beb37c4e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-24 06:01:07</sys_updated_on>
+        <type>Module</type>
+        <update_guid>ddf433b361d31010d06d0058d993b69f</update_guid>
+        <update_guid_history>ddf433b361d31010d06d0058d993b69f:1095231529,4e79ff6f590f10108d8703047ee513df:1240569833,70687b2fe10f1010a3bfbe7b8612cf53:1625345394,34d062b4230310108a676a83e58d6ef7:711704148</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="VA Task Details">c67929da1be71010f61b4196bc4bcbcb</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-01 14:16:30</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>3d62c9bb85e646b0be2b15700f813d04</sys_id>
+        <sys_metadata>7cd062b41b031010f61b4196bc4bcbf5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>VA Task Details</sys_name>
+        <sys_package display_value="Approval Flow VA " source="x_484722_va_fundam">caf2b8c41ba85810f61b4196bc4bcbc3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Approval Flow VA ">caf2b8c41ba85810f61b4196bc4bcbc3</sys_scope>
+        <sys_scope_delete display_value="">4310b6dde81d4039b7e6532b9f337d31</sys_scope_delete>
+        <sys_update_name>sys_app_module_7cd062b41b031010f61b4196bc4bcbf5</sys_update_name>
+        <sys_update_version display_value="sys_app_module_7cd062b41b031010f61b4196bc4bcbf5">d5f433b31bd31010f61b4196bc4bcba0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-01 14:16:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

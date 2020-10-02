@@ -4,13 +4,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-09-14 06:37:59</sys_created_on>
-            <sys_id>b37d94f81bd31010f61b4196bc4bcb60</sys_id>
+            <sys_created_on>2020-10-02 08:37:28</sys_created_on>
+            <sys_id>ed75a9661ba35010f61b4196bc4bcb71</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_484722_va_fundam_va_task_list" sys_domain="global" view="Default view">d9712a741b031010f61b4196bc4bcb9d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-09-14 06:37:59</sys_updated_on>
+            <sys_updated_on>2020-10-02 08:37:28</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,139 +18,153 @@
             <element>assigned_to</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-09-14 06:37:59</sys_created_on>
-            <sys_id>7b7d94f81bd31010f61b4196bc4bcb60</sys_id>
+            <sys_created_on>2020-10-02 08:37:28</sys_created_on>
+            <sys_id>6575a9661ba35010f61b4196bc4bcb72</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_484722_va_fundam_va_task_list" sys_domain="global" view="Default view">d9712a741b031010f61b4196bc4bcb9d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-09-14 06:37:59</sys_updated_on>
+            <sys_updated_on>2020-10-02 08:37:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assignment_group</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-02 08:37:28</sys_created_on>
+            <sys_id>e575a9661ba35010f61b4196bc4bcb72</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_484722_va_fundam_va_task_list" sys_domain="global" view="Default view">d9712a741b031010f61b4196bc4bcb9d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-02 08:37:28</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>cmdb_ci</element>
-            <position>2</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-09-14 06:37:59</sys_created_on>
-            <sys_id>fb7d94f81bd31010f61b4196bc4bcb60</sys_id>
+            <sys_created_on>2020-10-02 08:37:28</sys_created_on>
+            <sys_id>6975a9661ba35010f61b4196bc4bcb72</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_484722_va_fundam_va_task_list" sys_domain="global" view="Default view">d9712a741b031010f61b4196bc4bcb9d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-09-14 06:37:59</sys_updated_on>
+            <sys_updated_on>2020-10-02 08:37:28</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>active</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-09-14 06:37:59</sys_created_on>
-            <sys_id>7f7d94f81bd31010f61b4196bc4bcb60</sys_id>
+            <sys_created_on>2020-10-02 08:37:28</sys_created_on>
+            <sys_id>e975a9661ba35010f61b4196bc4bcb72</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_484722_va_fundam_va_task_list" sys_domain="global" view="Default view">d9712a741b031010f61b4196bc4bcb9d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-09-14 06:37:59</sys_updated_on>
+            <sys_updated_on>2020-10-02 08:37:28</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-09-14 06:37:59</sys_created_on>
-            <sys_id>ff7d94f81bd31010f61b4196bc4bcb60</sys_id>
+            <sys_created_on>2020-10-02 08:37:28</sys_created_on>
+            <sys_id>6d75a9661ba35010f61b4196bc4bcb72</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_484722_va_fundam_va_task_list" sys_domain="global" view="Default view">d9712a741b031010f61b4196bc4bcb9d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-09-14 06:37:59</sys_updated_on>
+            <sys_updated_on>2020-10-02 08:37:28</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>priority</element>
-            <position>5</position>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-09-14 06:37:59</sys_created_on>
-            <sys_id>737d94f81bd31010f61b4196bc4bcb61</sys_id>
+            <sys_created_on>2020-10-02 08:37:28</sys_created_on>
+            <sys_id>ed75a9661ba35010f61b4196bc4bcb72</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_484722_va_fundam_va_task_list" sys_domain="global" view="Default view">d9712a741b031010f61b4196bc4bcb9d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-09-14 06:37:59</sys_updated_on>
+            <sys_updated_on>2020-10-02 08:37:28</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>state</element>
-            <position>6</position>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-09-14 06:37:59</sys_created_on>
-            <sys_id>f37d94f81bd31010f61b4196bc4bcb61</sys_id>
+            <sys_created_on>2020-10-02 08:37:28</sys_created_on>
+            <sys_id>6175a9661ba35010f61b4196bc4bcb73</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_484722_va_fundam_va_task_list" sys_domain="global" view="Default view">d9712a741b031010f61b4196bc4bcb9d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-09-14 06:37:59</sys_updated_on>
+            <sys_updated_on>2020-10-02 08:37:28</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>parent</element>
-            <position>7</position>
+            <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-09-14 06:37:59</sys_created_on>
-            <sys_id>777d94f81bd31010f61b4196bc4bcb61</sys_id>
+            <sys_created_on>2020-10-02 08:37:28</sys_created_on>
+            <sys_id>e175a9661ba35010f61b4196bc4bcb73</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_484722_va_fundam_va_task_list" sys_domain="global" view="Default view">d9712a741b031010f61b4196bc4bcb9d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-09-14 06:37:59</sys_updated_on>
+            <sys_updated_on>2020-10-02 08:37:28</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>8</position>
+            <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-09-14 06:37:59</sys_created_on>
-            <sys_id>f77d94f81bd31010f61b4196bc4bcb61</sys_id>
+            <sys_created_on>2020-10-02 08:37:28</sys_created_on>
+            <sys_id>6575a9661ba35010f61b4196bc4bcb73</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_484722_va_fundam_va_task_list" sys_domain="global" view="Default view">d9712a741b031010f61b4196bc4bcb9d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-09-14 06:37:59</sys_updated_on>
+            <sys_updated_on>2020-10-02 08:37:28</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>short_description</element>
-            <position>9</position>
+            <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-09-14 06:37:59</sys_created_on>
-            <sys_id>7b7d94f81bd31010f61b4196bc4bcb61</sys_id>
+            <sys_created_on>2020-10-02 08:37:28</sys_created_on>
+            <sys_id>e575a9661ba35010f61b4196bc4bcb73</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_484722_va_fundam_va_task_list" sys_domain="global" view="Default view">d9712a741b031010f61b4196bc4bcb9d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-09-14 06:37:59</sys_updated_on>
+            <sys_updated_on>2020-10-02 08:37:28</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>description</element>
-            <position>10</position>
+            <position>11</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-09-14 06:37:59</sys_created_on>
-            <sys_id>fb7d94f81bd31010f61b4196bc4bcb61</sys_id>
+            <sys_created_on>2020-10-02 08:37:28</sys_created_on>
+            <sys_id>6975a9661ba35010f61b4196bc4bcb73</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_484722_va_fundam_va_task_list" sys_domain="global" view="Default view">d9712a741b031010f61b4196bc4bcb9d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-09-14 06:37:59</sys_updated_on>
+            <sys_updated_on>2020-10-02 08:37:28</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

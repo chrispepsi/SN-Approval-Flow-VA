@@ -6,7 +6,7 @@
         <action_insert>true</action_insert>
         <action_query>false</action_query>
         <action_update>true</action_update>
-        <active>true</active>
+        <active>false</active>
         <add_message>false</add_message>
         <advanced>true</advanced>
         <change_fields>false</change_fields>
@@ -18,7 +18,7 @@
         <filter_condition/>
         <is_rest>false</is_rest>
         <message/>
-        <name>check Detail IntNumber</name>
+        <name>VAL Test Check Detail IntNumber</name>
         <order>100</order>
         <priority>100</priority>
         <rest_method/>
@@ -49,15 +49,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>754a20b51b9f9010f61b4196bc4bcb8c</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>check Detail IntNumber</sys_name>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>VAL Test Check Detail IntNumber</sys_name>
         <sys_overrides/>
         <sys_package display_value="Approval Flow VA " source="x_484722_va_fundam">caf2b8c41ba85810f61b4196bc4bcbc3</sys_package>
         <sys_policy/>
         <sys_scope display_value="Approval Flow VA ">caf2b8c41ba85810f61b4196bc4bcbc3</sys_scope>
         <sys_update_name>sys_script_754a20b51b9f9010f61b4196bc4bcb8c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-24 07:16:50</sys_updated_on>
+        <sys_updated_on>2020-10-01 12:43:21</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

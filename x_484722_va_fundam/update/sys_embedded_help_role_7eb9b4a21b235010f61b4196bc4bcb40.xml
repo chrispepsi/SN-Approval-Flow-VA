@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_484722_va_fundam.va_list_approver" name="x_484722_va_fundam.va_list_approver">c6a97ce21b235010f61b4196bc4bcbdd</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-02 05:26:25</sys_created_on>
+        <sys_id>7eb9b4a21b235010f61b4196bc4bcb40</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>c6a97ce21b235010f61b4196bc4bcbdd</sys_name>
+        <sys_package display_value="Approval Flow VA " source="x_484722_va_fundam">caf2b8c41ba85810f61b4196bc4bcbc3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Approval Flow VA ">caf2b8c41ba85810f61b4196bc4bcbc3</sys_scope>
+        <sys_update_name>sys_embedded_help_role_7eb9b4a21b235010f61b4196bc4bcb40</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-02 05:26:25</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

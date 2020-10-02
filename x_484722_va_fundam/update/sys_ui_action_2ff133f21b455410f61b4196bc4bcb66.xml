@@ -25,7 +25,7 @@
         <list_link>false</list_link>
         <list_save_with_form_button>false</list_save_with_form_button>
         <list_style/>
-        <name>List approvel</name>
+        <name>List approve</name>
         <onclick/>
         <order>100</order>
         <script/>
@@ -39,15 +39,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2ff133f21b455410f61b4196bc4bcb66</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>List approvel</sys_name>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>List approve</sys_name>
         <sys_overrides/>
         <sys_package display_value="Approval Flow VA " source="x_484722_va_fundam">caf2b8c41ba85810f61b4196bc4bcbc3</sys_package>
         <sys_policy/>
         <sys_scope display_value="Approval Flow VA ">caf2b8c41ba85810f61b4196bc4bcbc3</sys_scope>
         <sys_update_name>sys_ui_action_2ff133f21b455410f61b4196bc4bcb66</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-01 06:59:09</sys_updated_on>
+        <sys_updated_on>2020-10-01 07:40:20</sys_updated_on>
         <table>x_484722_va_fundam_vafun</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

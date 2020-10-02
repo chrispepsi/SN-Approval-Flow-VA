@@ -17,14 +17,14 @@
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
-        <roles>x_484722_va_fundam.va_detail_user</roles>
+        <roles>x_484722_va_fundam.va_detail_user,x_484722_va_fundam.va_list_applicant,x_484722_va_fundam.va_list_approver</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-14 06:35:47</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>effc5cb81bd31010f61b4196bc4bcbed</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>VA Details</sys_name>
         <sys_overrides/>
         <sys_package display_value="Approval Flow VA " source="x_484722_va_fundam">caf2b8c41ba85810f61b4196bc4bcbc3</sys_package>
@@ -32,7 +32,7 @@
         <sys_scope display_value="Approval Flow VA ">caf2b8c41ba85810f61b4196bc4bcbc3</sys_scope>
         <sys_update_name>sys_app_module_effc5cb81bd31010f61b4196bc4bcbed</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-24 05:59:15</sys_updated_on>
+        <sys_updated_on>2020-10-02 05:53:06</sys_updated_on>
         <timeline_page/>
         <title>VA Details</title>
         <uncancelable>false</uncancelable>

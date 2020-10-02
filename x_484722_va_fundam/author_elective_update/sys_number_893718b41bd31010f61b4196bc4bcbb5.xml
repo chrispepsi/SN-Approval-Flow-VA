@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="DELETE">
+        <category display_value="" name="x_484722_va_fundam_va_task_detail">x_484722_va_fundam_va_task_detail</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>VAD</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-14 06:10:29</sys_created_on>
+        <sys_id>893718b41bd31010f61b4196bc4bcbb5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>VAD</sys_name>
+        <sys_package display_value="Approval Flow VA " source="x_484722_va_fundam">caf2b8c41ba85810f61b4196bc4bcbc3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Approval Flow VA ">caf2b8c41ba85810f61b4196bc4bcbc3</sys_scope>
+        <sys_update_name>sys_number_893718b41bd31010f61b4196bc4bcbb5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-14 06:10:29</sys_updated_on>
+    </sys_number>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Approval Flow VA ">caf2b8c41ba85810f61b4196bc4bcbc3</application>
+        <file_path/>
+        <instance_id>64eebd9cdb5b9fc4439ef70fbf961905</instance_id>
+        <instance_name>dev64106</instance_name>
+        <name>sys_number_893718b41bd31010f61b4196bc4bcbb5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number"><sys_number action="INSERT_OR_UPDATE"><category display_value="" name="x_484722_va_fundam_va_task_detail">x_484722_va_fundam_va_task_detail</category><maximum_digits>7</maximum_digits><number>1000</number><prefix>VAD</prefix><sys_class_name>sys_number</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-09-14 06:10:29</sys_created_on><sys_id>893718b41bd31010f61b4196bc4bcbb5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>VAD</sys_name><sys_package display_value="Approval Flow VA " source="x_484722_va_fundam">caf2b8c41ba85810f61b4196bc4bcbc3</sys_package><sys_policy/><sys_scope display_value="Approval Flow VA ">caf2b8c41ba85810f61b4196bc4bcbc3</sys_scope><sys_update_name>sys_number_893718b41bd31010f61b4196bc4bcbb5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-09-14 06:10:29</sys_updated_on></sys_number></record_update>]]></payload>
+        <payload_hash>1092887148</payload_hash>
+        <record_name>VAD</record_name>
+        <reverted_from/>
+        <source>6b77b5181be49810f61b4196bc4bcba0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-14 06:10:30</sys_created_on>
+        <sys_id>81379cb41bd31010f61b4196bc4bcbf6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1748b3c78a40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-14 06:10:30</sys_updated_on>
+        <type>Number</type>
+        <update_guid>c9379cb48dd31010a3a4832f53f5eef5</update_guid>
+        <update_guid_history>c9379cb48dd31010a3a4832f53f5eef5:1092887148</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-01 14:16:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_number">sys_number</sys_db_object>
+        <sys_id>bffe0209d595489e949ad1b0357dd409</sys_id>
+        <sys_metadata>893718b41bd31010f61b4196bc4bcbb5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>VAD</sys_name>
+        <sys_package display_value="Approval Flow VA " source="x_484722_va_fundam">caf2b8c41ba85810f61b4196bc4bcbc3</sys_package>
+        <sys_parent display_value="">8a806e741b031010f61b4196bc4bcb7a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Approval Flow VA ">caf2b8c41ba85810f61b4196bc4bcbc3</sys_scope>
+        <sys_scope_delete display_value="">4310b6dde81d4039b7e6532b9f337d31</sys_scope_delete>
+        <sys_update_name>sys_number_893718b41bd31010f61b4196bc4bcbb5</sys_update_name>
+        <sys_update_version display_value="sys_number_893718b41bd31010f61b4196bc4bcbb5">81379cb41bd31010f61b4196bc4bcbf6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-01 14:16:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -4,13 +4,13 @@
             <element>refvatl</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-09-15 07:26:54</sys_created_on>
-            <sys_id>f542394d1b535010f61b4196bc4bcb1c</sys_id>
+            <sys_created_on>2020-09-24 11:16:57</sys_created_on>
+            <sys_id>a33db4c41ba71010f61b4196bc4bcb79</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_484722_va_fundam_va_detail" sys_domain="global" view="Default view">0ffe58f81bd31010f61b4196bc4bcb89</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-09-15 07:26:54</sys_updated_on>
+            <sys_updated_on>2020-09-24 11:16:57</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>number</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-09-15 07:26:54</sys_created_on>
-            <sys_id>7942394d1b535010f61b4196bc4bcb1c</sys_id>
+            <sys_created_on>2020-09-24 11:16:57</sys_created_on>
+            <sys_id>273db4c41ba71010f61b4196bc4bcb79</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_484722_va_fundam_va_detail" sys_domain="global" view="Default view">0ffe58f81bd31010f61b4196bc4bcb89</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-09-15 07:26:54</sys_updated_on>
+            <sys_updated_on>2020-09-24 11:16:57</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>.split</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-09-15 07:26:54</sys_created_on>
-            <sys_id>f942394d1b535010f61b4196bc4bcb1c</sys_id>
+            <sys_created_on>2020-09-24 11:16:57</sys_created_on>
+            <sys_id>a73db4c41ba71010f61b4196bc4bcb79</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_484722_va_fundam_va_detail" sys_domain="global" view="Default view">0ffe58f81bd31010f61b4196bc4bcb89</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-09-15 07:26:54</sys_updated_on>
+            <sys_updated_on>2020-09-24 11:16:57</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>.end_split</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-09-15 07:26:54</sys_created_on>
-            <sys_id>7d42394d1b535010f61b4196bc4bcb1c</sys_id>
+            <sys_created_on>2020-09-24 11:16:57</sys_created_on>
+            <sys_id>2b3db4c41ba71010f61b4196bc4bcb79</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_484722_va_fundam_va_detail" sys_domain="global" view="Default view">0ffe58f81bd31010f61b4196bc4bcb89</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-09-15 07:26:54</sys_updated_on>
+            <sys_updated_on>2020-09-24 11:16:57</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
@@ -60,27 +60,27 @@
             <element>.begin_split</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-09-15 07:26:54</sys_created_on>
-            <sys_id>fd42394d1b535010f61b4196bc4bcb1c</sys_id>
+            <sys_created_on>2020-09-24 11:16:57</sys_created_on>
+            <sys_id>ab3db4c41ba71010f61b4196bc4bcb79</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_484722_va_fundam_va_detail" sys_domain="global" view="Default view">0ffe58f81bd31010f61b4196bc4bcb89</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-09-15 07:26:54</sys_updated_on>
+            <sys_updated_on>2020-09-24 11:16:57</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>intnum</element>
+            <element>cur_money</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-09-15 07:26:54</sys_created_on>
-            <sys_id>7142394d1b535010f61b4196bc4bcb1d</sys_id>
+            <sys_created_on>2020-09-24 11:16:57</sys_created_on>
+            <sys_id>2f3db4c41ba71010f61b4196bc4bcb79</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_484722_va_fundam_va_detail" sys_domain="global" view="Default view">0ffe58f81bd31010f61b4196bc4bcb89</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-09-15 07:26:54</sys_updated_on>
+            <sys_updated_on>2020-09-24 11:16:57</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -88,43 +88,29 @@
             <element>.split</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-09-15 07:26:54</sys_created_on>
-            <sys_id>f142394d1b535010f61b4196bc4bcb1d</sys_id>
+            <sys_created_on>2020-09-24 11:16:57</sys_created_on>
+            <sys_id>af3db4c41ba71010f61b4196bc4bcb79</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_484722_va_fundam_va_detail" sys_domain="global" view="Default view">0ffe58f81bd31010f61b4196bc4bcb89</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-09-15 07:26:54</sys_updated_on>
+            <sys_updated_on>2020-09-24 11:16:57</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>cur_money</element>
+            <element>activity.xml</element>
             <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-09-15 07:26:54</sys_created_on>
-            <sys_id>7542394d1b535010f61b4196bc4bcb1d</sys_id>
+            <sys_created_on>2020-09-24 11:16:57</sys_created_on>
+            <sys_id>233db4c41ba71010f61b4196bc4bcb7a</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
+            <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
             <sys_ui_section caption="NULL" display_value="" name="x_484722_va_fundam_va_detail" sys_domain="global" view="Default view">0ffe58f81bd31010f61b4196bc4bcb89</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-09-15 07:26:54</sys_updated_on>
+            <sys_updated_on>2020-09-24 11:16:57</sys_updated_on>
             <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>price_money</element>
-            <position>8</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-09-15 07:26:54</sys_created_on>
-            <sys_id>f542394d1b535010f61b4196bc4bcb1d</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_484722_va_fundam_va_detail" sys_domain="global" view="Default view">0ffe58f81bd31010f61b4196bc4bcb89</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-09-15 07:26:54</sys_updated_on>
-            <sys_user/>
-            <type/>
+            <type>formatter</type>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
     <sys_ui_action action="INSERT_OR_UPDATE">
         <action_name/>
-        <active>true</active>
+        <active>false</active>
         <client>false</client>
         <client_script_v2><![CDATA[function onClick(g_form) {
 
@@ -25,7 +25,7 @@
         <list_link>false</list_link>
         <list_save_with_form_button>false</list_save_with_form_button>
         <list_style/>
-        <name>VA Create</name>
+        <name>VAL Create</name>
         <onclick/>
         <order>100</order>
         <script><![CDATA[//current.state = 2;
@@ -45,15 +45,15 @@ action.setRedirectURL(current);
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6333840c1be31010f61b4196bc4bcb52</sys_id>
-        <sys_mod_count>7</sys_mod_count>
-        <sys_name>VA Create</sys_name>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>VAL Create</sys_name>
         <sys_overrides/>
         <sys_package display_value="Approval Flow VA " source="x_484722_va_fundam">caf2b8c41ba85810f61b4196bc4bcbc3</sys_package>
         <sys_policy/>
         <sys_scope display_value="Approval Flow VA ">caf2b8c41ba85810f61b4196bc4bcbc3</sys_scope>
         <sys_update_name>sys_ui_action_6333840c1be31010f61b4196bc4bcb52</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-24 11:02:18</sys_updated_on>
+        <sys_updated_on>2020-10-01 05:54:32</sys_updated_on>
         <table>x_484722_va_fundam_va_task_list</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="VA詳細" max_length="40" name="x_484722_va_fundam_va_detail" sizeclass="2" type="collection">
+    <element audit="true" label="VA詳細" max_length="40" name="x_484722_va_fundam_va_detail" sizeclass="8" type="collection">
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Currency Money" max_length="20" name="cur_money" type="currency"/>
         <element label="IntNum" max_length="40" name="intnum" type="integer"/>
         <element label="Number" max_length="40" name="number" type="string"/>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Price Money" max_length="20" name="price_money" type="price"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" display="true" label="RefVATL" max_length="32" name="refvatl" read_only="true" reference="x_484722_va_fundam_va_task_list" type="reference"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" display="true" label="RefVATL" max_length="32" name="refvatl" read_only="true" reference="x_484722_va_fundam_va_task_list" reference_floats="true" type="reference"/>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" default="javascript:current.number;" label="VATL Number" max_length="200" name="vatl_number" read_only="true" type="string"/>
         <index name="index">
             <element name="refvatl"/>

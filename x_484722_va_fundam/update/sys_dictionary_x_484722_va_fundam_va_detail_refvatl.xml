@@ -42,7 +42,7 @@
         <read_roles/>
         <reference display_value="" name="x_484722_va_fundam_va_task_list">x_484722_va_fundam_va_task_list</reference>
         <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
+        <reference_floats>true</reference_floats>
         <reference_key/>
         <reference_qual/>
         <reference_qual_condition/>
@@ -54,14 +54,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-14 06:37:18</sys_created_on>
         <sys_id>fd0ddcb81bd31010f61b4196bc4bcbcd</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>RefVATL</sys_name>
         <sys_package display_value="Approval Flow VA " source="x_484722_va_fundam">caf2b8c41ba85810f61b4196bc4bcbc3</sys_package>
         <sys_policy/>
         <sys_scope display_value="Approval Flow VA ">caf2b8c41ba85810f61b4196bc4bcbc3</sys_scope>
         <sys_update_name>sys_dictionary_x_484722_va_fundam_va_detail_refvatl</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-15 02:35:50</sys_updated_on>
+        <sys_updated_on>2020-10-01 01:30:43</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
