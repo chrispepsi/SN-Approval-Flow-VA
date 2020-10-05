@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" label="VA詳細" max_length="40" name="x_484722_va_fundam_va_detail" sizeclass="8" type="collection">
+    <element audit="true" label="VA詳細" max_length="40" name="x_484722_va_fundam_va_detail" sizeclass="11" type="collection">
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Currency Money" max_length="20" name="cur_money" type="currency"/>
         <element label="IntNum" max_length="40" name="intnum" type="integer"/>
         <element label="Number" max_length="40" name="number" type="string"/>

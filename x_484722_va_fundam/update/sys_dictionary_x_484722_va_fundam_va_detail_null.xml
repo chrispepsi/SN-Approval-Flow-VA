@@ -47,21 +47,21 @@
         <reference_qual/>
         <reference_qual_condition/>
         <reference_type/>
-        <sizeclass>8</sizeclass>
+        <sizeclass>11</sizeclass>
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-14 06:35:48</sys_created_on>
         <sys_id>bffc9cb81bd31010f61b4196bc4bcb18</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>x_484722_va_fundam_va_detail</sys_name>
         <sys_package display_value="Approval Flow VA " source="x_484722_va_fundam">caf2b8c41ba85810f61b4196bc4bcbc3</sys_package>
         <sys_policy/>
         <sys_scope display_value="Approval Flow VA ">caf2b8c41ba85810f61b4196bc4bcbc3</sys_scope>
         <sys_update_name>sys_dictionary_x_484722_va_fundam_va_detail_null</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2020-10-01 17:46:36</sys_updated_on>
+        <sys_updated_on>2020-10-02 10:54:54</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
