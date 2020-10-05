@@ -30,6 +30,24 @@
         <order>100</order>
         <script><![CDATA[current.state = 12;
 current.update();
+
+//gs.info('TODOXXX');
+//var gr = new GlideRecord('x_484722_va_fundam_va_list_approval');
+//gr.addQuery('parent', current.sys_id);
+//gr.query();
+//
+//if (gr.next()) {
+//    gr.state = 7;
+//    gr.update();
+//    var gr2 = new GlideRecord('sysapproval_approver');
+//    gr2.addQuery('document_id', gr.sys_id);
+//    gr2.query();
+//    if (gr2.next()) {
+//        gr2.state = 'rejected';
+//        gr2.update();
+//    }
+//}
+
 action.setRedirectURL(current);
 ]]></script>
         <show_insert>true</show_insert>
@@ -42,7 +60,7 @@ action.setRedirectURL(current);
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>10eec45e1be31010f61b4196bc4bcb38</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>VAL Withdrawal</sys_name>
         <sys_overrides/>
         <sys_package display_value="Approval Flow VA " source="x_484722_va_fundam">caf2b8c41ba85810f61b4196bc4bcbc3</sys_package>
@@ -50,7 +68,7 @@ action.setRedirectURL(current);
         <sys_scope display_value="Approval Flow VA ">caf2b8c41ba85810f61b4196bc4bcbc3</sys_scope>
         <sys_update_name>sys_ui_action_10eec45e1be31010f61b4196bc4bcb38</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-01 07:48:38</sys_updated_on>
+        <sys_updated_on>2020-10-05 08:39:44</sys_updated_on>
         <table>x_484722_va_fundam_va_task_list</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
