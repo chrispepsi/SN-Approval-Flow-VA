@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_view_table_field">
+    <sys_db_view_table_field action="DELETE">
+        <field>refvad</field>
+        <sys_class_name>sys_db_view_table_field</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-30 13:49:33</sys_created_on>
+        <sys_id>13524d531b512010f61b4196bc4bcb66</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>refvad</sys_name>
+        <sys_package display_value="Approval Flow VA " source="x_484722_va_fundam">caf2b8c41ba85810f61b4196bc4bcbc3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Approval Flow VA ">caf2b8c41ba85810f61b4196bc4bcbc3</sys_scope>
+        <sys_update_name>sys_db_view_table_field_13524d531b512010f61b4196bc4bcb66</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-30 13:49:33</sys_updated_on>
+        <table>x_484722_va_fundam_va_third</table>
+        <view_table display_value="x_484722_va_fundam_va_third">e01249131b512010f61b4196bc4bcbcc</view_table>
+    </sys_db_view_table_field>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Approval Flow VA ">caf2b8c41ba85810f61b4196bc4bcbc3</application>
+        <file_path/>
+        <instance_id>64eebd9cdb5b9fc4439ef70fbf961905</instance_id>
+        <instance_name>dev64106</instance_name>
+        <name>sys_db_view_table_field_13524d531b512010f61b4196bc4bcb66</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_view_table_field"><sys_db_view_table_field action="INSERT_OR_UPDATE"><field>refvad</field><sys_class_name>sys_db_view_table_field</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-12-30 13:49:33</sys_created_on><sys_id>13524d531b512010f61b4196bc4bcb66</sys_id><sys_mod_count>0</sys_mod_count><sys_name>refvad</sys_name><sys_package display_value="Approval Flow VA " source="x_484722_va_fundam">caf2b8c41ba85810f61b4196bc4bcbc3</sys_package><sys_policy/><sys_scope display_value="Approval Flow VA ">caf2b8c41ba85810f61b4196bc4bcbc3</sys_scope><sys_update_name>sys_db_view_table_field_13524d531b512010f61b4196bc4bcb66</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-12-30 13:49:33</sys_updated_on><table>x_484722_va_fundam_va_third</table><view_table display_value="x_484722_va_fundam_va_third">e01249131b512010f61b4196bc4bcbcc</view_table></sys_db_view_table_field></record_update>]]></payload>
+        <payload_hash>1668349081</payload_hash>
+        <record_name>refvad</record_name>
+        <reverted_from/>
+        <source>6b77b5181be49810f61b4196bc4bcba0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-30 13:49:33</sys_created_on>
+        <sys_id>49624d531b512010f61b4196bc4bcbdd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>176b3e935260000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-30 13:49:33</sys_updated_on>
+        <type>View Field</type>
+        <update_guid>81624d5304512010c62d153ec257c1dd</update_guid>
+        <update_guid_history>81624d5304512010c62d153ec257c1dd:1668349081</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-30 13:50:15</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_view_table_field">sys_db_view_table_field</sys_db_object>
+        <sys_id>53cb8a3f126d42b89a9cca0336b0cc40</sys_id>
+        <sys_metadata>13524d531b512010f61b4196bc4bcb66</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>refvad</sys_name>
+        <sys_package display_value="Approval Flow VA " source="x_484722_va_fundam">caf2b8c41ba85810f61b4196bc4bcbc3</sys_package>
+        <sys_parent display_value="">e01249131b512010f61b4196bc4bcbcc</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Approval Flow VA ">caf2b8c41ba85810f61b4196bc4bcbc3</sys_scope>
+        <sys_scope_delete display_value="">4310b6dde81d4039b7e6532b9f337d31</sys_scope_delete>
+        <sys_update_name>sys_db_view_table_field_13524d531b512010f61b4196bc4bcb66</sys_update_name>
+        <sys_update_version display_value="sys_db_view_table_field_13524d531b512010f61b4196bc4bcb66">49624d531b512010f61b4196bc4bcbdd</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-30 13:50:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

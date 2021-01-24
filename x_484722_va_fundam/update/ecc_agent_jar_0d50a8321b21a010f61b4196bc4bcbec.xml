@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="ecc_agent_jar">
+    <ecc_agent_jar action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <directory>false</directory>
+        <name>servicenow</name>
+        <parent/>
+        <source/>
+        <sys_class_name>ecc_agent_jar</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-10 14:09:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0d50a8321b21a010f61b4196bc4bcbec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>servicenow</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Approval Flow VA " source="x_484722_va_fundam">caf2b8c41ba85810f61b4196bc4bcbc3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Approval Flow VA ">caf2b8c41ba85810f61b4196bc4bcbc3</sys_scope>
+        <sys_update_name>ecc_agent_jar_0d50a8321b21a010f61b4196bc4bcbec</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-10 14:09:26</sys_updated_on>
+        <version>1.0</version>
+    </ecc_agent_jar>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>application/java-archive</content_type>
+        <file_name>servicenow.jar</file_name>
+        <hash>c7f2e93418e3a86184822c3b2a73c21835c741329b76d5ea95b6510002fe617b</hash>
+        <image_height/>
+        <image_width/>
+        <size_bytes>999</size_bytes>
+        <size_compressed>648</size_compressed>
+        <state>available</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-10 14:07:46</sys_created_on>
+        <sys_id>fa0071b61be5a010f61b4196bc4bcb53</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-01-10 14:07:47</sys_updated_on>
+        <table_name>ecc_agent_jar</table_name>
+        <table_sys_id>0d50a8321b21a010f61b4196bc4bcbec</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="servicenow.jar" sys_id="fa0071b61be5a010f61b4196bc4bcb53">fa0071b61be5a010f61b4196bc4bcb53</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-10 14:07:46</sys_created_on>
+        <sys_id>3e0071b61be5a010f61b4196bc4bcb53</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>C/BmZhFh4ODgYDi5QyuIAQmIMLAw+LqGOOp6+rnp+zr6ebq5Bofo+br9O8XA8Nn3zGkfb129i7zeulrnzpzfHGRwxfjB00dPmRgCvNk5NtUzvZMGGiEJxAFAC7gYGDgYMCxgAeLk/Fx93Cq4oCqSM4oyi/GoE0JRl5uZUpJaXAJWD/FawHZU9bJY1Xuk5uTk6yXnJBYXlwae9jvkIGLb3DotilG7Kd9VuLn/Riu3uIRws6GeVGzCHf5UJmev1akfdpc0d3LbH+g3uifWof9GpfjdHMviZ1/O/T7+WrpB+M0LD8Mpezc8r5jr8W3uvBzNi+Hnpn74G9B+LODFJ/d3P2wyrM3Prvsg4vwshC1oruGZkO/vJLZU3RBSS5uwdYJbm+L7Uw4x/FW+gnc/LdOXyDH/sqP+uLLk+uNLllltOr/hzb/i2t7EdbpXdAV5RU8uOLshunT/o54Tt+7FnzpiI1Zyw/5S/zcdkY0nElYUPIpc41doEJCW0M42jfNc8v5Q7uyI9AvKhe+L+z/F1/AHv/+wQlGOTemDy1v7ulOuPJa//srl3+n2VKie5fU5dX5Uvtkhxyed3pLmF3xulYisDmS0ZX+k7ypqy3zWam0fp2Ri1X/WY8Wbci/lCDFJ9fKkrdzkpnTI8pBO0Yl+Xr2TZteefWvXuKFandkh+v3By+nB0/xmdQZnLjnGZiZ8X2Tbii7nkEnGt+eDEo3Zsx+LChgZGGqZQImGkUmEAZEukROUCDjhIANcqRRkChcD7sSHAInwpIhbBxeKjma0pIlbnxCKvtU4kirCv6DEihwWsij6bxNKugHerGwghaxAaA00YhoTiAcAufTFr+cDAAA=</data>
+        <length>852</length>
+        <position>1</position>
+        <sys_attachment display_value="servicenow.jar" sys_id="fa0071b61be5a010f61b4196bc4bcb53">fa0071b61be5a010f61b4196bc4bcb53</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-10 14:07:46</sys_created_on>
+        <sys_id>be0071b61be5a010f61b4196bc4bcb53</sys_id>
+    </sys_attachment_doc>
+</record_update>

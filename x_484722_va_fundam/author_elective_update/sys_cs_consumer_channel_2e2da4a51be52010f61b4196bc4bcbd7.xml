@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cs_consumer_channel">
+    <sys_cs_consumer_channel action="DELETE">
+        <channel_group>T01208RRWKT</channel_group>
+        <channel_info>{"userId":"U01208RRWNM"}</channel_info>
+        <channel_type>slack</channel_type>
+        <channel_user>D011KM7D77G</channel_user>
+        <consumer/>
+        <consumer_account/>
+        <control/>
+        <field_name/>
+        <profile/>
+        <provider_user_id>slack:T01208RRWKT:U01208RRWNM</provider_user_id>
+        <session/>
+        <sys_class_name>sys_cs_consumer_channel</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-06 12:03:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>2e2da4a51be52010f61b4196bc4bcbd7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Approval Flow VA " source="x_484722_va_fundam">caf2b8c41ba85810f61b4196bc4bcbc3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Approval Flow VA ">caf2b8c41ba85810f61b4196bc4bcbc3</sys_scope>
+        <sys_update_name>sys_cs_consumer_channel_2e2da4a51be52010f61b4196bc4bcbd7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-06 12:03:10</sys_updated_on>
+        <task/>
+        <timezone>GMT+09:00</timezone>
+        <user_id>U01208RRWNM</user_id>
+        <user_name>寧靖達</user_name>
+        <vendor display_value="ServiceNow">c2f0b8f187033200246ddd4c97cb0bb9</vendor>
+        <version>1</version>
+    </sys_cs_consumer_channel>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Approval Flow VA ">caf2b8c41ba85810f61b4196bc4bcbc3</application>
+        <file_path/>
+        <instance_id>64eebd9cdb5b9fc4439ef70fbf961905</instance_id>
+        <instance_name>dev64106</instance_name>
+        <name>sys_cs_consumer_channel_2e2da4a51be52010f61b4196bc4bcbd7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cs_consumer_channel"><sys_cs_consumer_channel action="INSERT_OR_UPDATE"><channel_group>T01208RRWKT</channel_group><channel_info>{"userId":"U01208RRWNM"}</channel_info><channel_type>slack</channel_type><channel_user>D011KM7D77G</channel_user><consumer/><consumer_account/><control/><field_name/><profile/><provider_user_id>slack:T01208RRWKT:U01208RRWNM</provider_user_id><session/><sys_class_name>sys_cs_consumer_channel</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-01-06 12:03:10</sys_created_on><sys_domain>global</sys_domain><sys_id>2e2da4a51be52010f61b4196bc4bcbd7</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Approval Flow VA " source="x_484722_va_fundam">caf2b8c41ba85810f61b4196bc4bcbc3</sys_package><sys_policy/><sys_scope display_value="Approval Flow VA ">caf2b8c41ba85810f61b4196bc4bcbc3</sys_scope><sys_update_name>sys_cs_consumer_channel_2e2da4a51be52010f61b4196bc4bcbd7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-01-06 12:03:10</sys_updated_on><task/><timezone>GMT+09:00</timezone><user_id>U01208RRWNM</user_id><user_name>寧靖達</user_name><vendor display_value="ServiceNow">c2f0b8f187033200246ddd4c97cb0bb9</vendor><version>1</version></sys_cs_consumer_channel></record_update>]]></payload>
+        <payload_hash>1657467654</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>6b77b5181be49810f61b4196bc4bcba0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-06 12:03:10</sys_created_on>
+        <sys_id>f62da4a51be52010f61b4196bc4bcbda</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>176d79453eb0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-06 12:03:10</sys_updated_on>
+        <type>Consumer Channel</type>
+        <update_guid>322da4a5a5e52010bb8846a25d7665da</update_guid>
+        <update_guid_history>322da4a5a5e52010bb8846a25d7665da:1657467654</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-06 18:30:00</sys_created_on>
+        <sys_db_object display_value="" name="sys_cs_consumer_channel">sys_cs_consumer_channel</sys_db_object>
+        <sys_id>205d500935fd44208ce5e8087c6f15a4</sys_id>
+        <sys_metadata>2e2da4a51be52010f61b4196bc4bcbd7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Approval Flow VA " source="x_484722_va_fundam">caf2b8c41ba85810f61b4196bc4bcbc3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Approval Flow VA ">caf2b8c41ba85810f61b4196bc4bcbc3</sys_scope>
+        <sys_scope_delete display_value="">4310b6dde81d4039b7e6532b9f337d31</sys_scope_delete>
+        <sys_update_name>sys_cs_consumer_channel_2e2da4a51be52010f61b4196bc4bcbd7</sys_update_name>
+        <sys_update_version display_value="sys_cs_consumer_channel_2e2da4a51be52010f61b4196bc4bcbd7">f62da4a51be52010f61b4196bc4bcbda</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-06 18:30:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

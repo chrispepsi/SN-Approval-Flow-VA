@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_notification_va_content">
+    <sys_notification_va_content action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <fields/>
+        <message>Test content ABC</message>
+        <message_heading>A notification has arrived. You can continue the conversation after viewing the notification.</message_heading>
+        <name>Test content ABC</name>
+        <notification display_value="Test Notify">762faca51be52010f61b4196bc4bcbb1</notification>
+        <send_link>true</send_link>
+        <sys_class_name>sys_notification_va_content</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-06 12:13:07</sys_created_on>
+        <sys_id>ea5fa42d1be52010f61b4196bc4bcb19</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test content ABC</sys_name>
+        <sys_package display_value="Approval Flow VA " source="x_484722_va_fundam">caf2b8c41ba85810f61b4196bc4bcbc3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Approval Flow VA ">caf2b8c41ba85810f61b4196bc4bcbc3</sys_scope>
+        <sys_update_name>sys_notification_va_content_ea5fa42d1be52010f61b4196bc4bcb19</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-06 12:13:07</sys_updated_on>
+    </sys_notification_va_content>
+</record_update>

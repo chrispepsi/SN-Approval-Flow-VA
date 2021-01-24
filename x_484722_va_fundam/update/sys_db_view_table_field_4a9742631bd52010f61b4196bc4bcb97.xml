@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_view_table_field">
+    <sys_db_view_table_field action="INSERT_OR_UPDATE">
+        <field>refvad</field>
+        <sys_class_name>sys_db_view_table_field</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-31 13:30:32</sys_created_on>
+        <sys_id>4a9742631bd52010f61b4196bc4bcb97</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>refvad</sys_name>
+        <sys_package display_value="Approval Flow VA " source="x_484722_va_fundam">caf2b8c41ba85810f61b4196bc4bcbc3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Approval Flow VA ">caf2b8c41ba85810f61b4196bc4bcbc3</sys_scope>
+        <sys_update_name>sys_db_view_table_field_4a9742631bd52010f61b4196bc4bcb97</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-31 13:30:32</sys_updated_on>
+        <table>x_484722_va_fundam_va_third</table>
+        <view_table display_value="x_484722_va_fundam_va_third">5d7002a71b952010f61b4196bc4bcbf0</view_table>
+    </sys_db_view_table_field>
+</record_update>

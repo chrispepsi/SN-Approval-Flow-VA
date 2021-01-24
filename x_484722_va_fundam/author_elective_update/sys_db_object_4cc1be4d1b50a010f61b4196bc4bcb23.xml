@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="DELETE">
+        <access>public</access>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>false</create_access>
+        <create_access_controls>true</create_access_controls>
+        <delete_access>false</delete_access>
+        <extension_model/>
+        <is_extendable>false</is_extendable>
+        <label> VA List2</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_484722_va_fundam_va_list2</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class display_value="Task" name="task">9bf78695983100107f2c2ed01a1f1678</super_class>
+        <sys_class_code/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_class_path/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-04 05:08:25</sys_created_on>
+        <sys_id>4cc1be4d1b50a010f61b4196bc4bcb23</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name> VA List2</sys_name>
+        <sys_package display_value="Approval Flow VA " source="x_484722_va_fundam">caf2b8c41ba85810f61b4196bc4bcbc3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Approval Flow VA ">caf2b8c41ba85810f61b4196bc4bcbc3</sys_scope>
+        <sys_update_name>sys_db_object_4cc1be4d1b50a010f61b4196bc4bcb23</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-04 05:08:25</sys_updated_on>
+        <update_access>false</update_access>
+        <user_role display_value="x_484722_va_fundam.va_list2_user" name="x_484722_va_fundam.va_list2_user">0512328d1b50a010f61b4196bc4bcba6</user_role>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Approval Flow VA ">caf2b8c41ba85810f61b4196bc4bcbc3</application>
+        <file_path/>
+        <instance_id>64eebd9cdb5b9fc4439ef70fbf961905</instance_id>
+        <instance_name>dev64106</instance_name>
+        <name>sys_db_object_4cc1be4d1b50a010f61b4196bc4bcb23</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>true</create_access_controls><delete_access>false</delete_access><extension_model/><is_extendable>false</is_extendable><label> VA List2</label><live_feed_enabled>false</live_feed_enabled><name>x_484722_va_fundam_va_list2</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class display_value="Task" name="task">9bf78695983100107f2c2ed01a1f1678</super_class><sys_class_code/><sys_class_name>sys_db_object</sys_class_name><sys_class_path/><sys_created_by>admin</sys_created_by><sys_created_on>2020-11-04 05:08:25</sys_created_on><sys_id>4cc1be4d1b50a010f61b4196bc4bcb23</sys_id><sys_mod_count>0</sys_mod_count><sys_name> VA List2</sys_name><sys_package display_value="Approval Flow VA " source="x_484722_va_fundam">caf2b8c41ba85810f61b4196bc4bcbc3</sys_package><sys_policy/><sys_scope display_value="Approval Flow VA ">caf2b8c41ba85810f61b4196bc4bcbc3</sys_scope><sys_update_name>sys_db_object_4cc1be4d1b50a010f61b4196bc4bcb23</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-11-04 05:08:25</sys_updated_on><update_access>false</update_access><user_role display_value="x_484722_va_fundam.va_list2_user" name="x_484722_va_fundam.va_list2_user">0512328d1b50a010f61b4196bc4bcba6</user_role><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+        <payload_hash>-831271344</payload_hash>
+        <record_name> VA List2</record_name>
+        <reverted_from/>
+        <source>6b77b5181be49810f61b4196bc4bcba0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-04 05:08:27</sys_created_on>
+        <sys_id>e512b68d1b50a010f61b4196bc4bcb5a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17591a7ff740000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-04 05:08:27</sys_updated_on>
+        <type>Table</type>
+        <update_guid>2112b68dd250a0107f0a8495cf1c425a</update_guid>
+        <update_guid_history>2112b68dd250a0107f0a8495cf1c425a:-831271344</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-24 12:58:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_object">sys_db_object</sys_db_object>
+        <sys_id>440c0a71fb7a4dbeb246ae646e0dee84</sys_id>
+        <sys_metadata>4cc1be4d1b50a010f61b4196bc4bcb23</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name> VA List2</sys_name>
+        <sys_package display_value="Approval Flow VA " source="x_484722_va_fundam">caf2b8c41ba85810f61b4196bc4bcbc3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Approval Flow VA ">caf2b8c41ba85810f61b4196bc4bcbc3</sys_scope>
+        <sys_scope_delete display_value="">4310b6dde81d4039b7e6532b9f337d31</sys_scope_delete>
+        <sys_update_name>sys_db_object_4cc1be4d1b50a010f61b4196bc4bcb23</sys_update_name>
+        <sys_update_version display_value="sys_db_object_4cc1be4d1b50a010f61b4196bc4bcb23">e512b68d1b50a010f61b4196bc4bcb5a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-24 12:58:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,3 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="task" label="VA List" max_length="40" name="x_484722_va_fundam_va_task_list" sizeclass="23" type="collection"/>
+    <element audit="true" extends="task" label="VA List" max_length="40" name="x_484722_va_fundam_va_task_list" sizeclass="47" type="collection">
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="catalog item mod" max_length="32" name="catalog_item_mod" reference="sc_cat_item" type="reference"/>
+    </element>
 </database>

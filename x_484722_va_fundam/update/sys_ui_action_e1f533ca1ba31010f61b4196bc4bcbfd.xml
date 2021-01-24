@@ -11,7 +11,7 @@
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_button_v2>false</form_button_v2>
-        <form_context_menu>false</form_context_menu>
+        <form_context_menu>true</form_context_menu>
         <form_link>false</form_link>
         <form_menu_button_v2>false</form_menu_button_v2>
         <form_style/>
@@ -41,7 +41,7 @@ action.setRedirectURL(current);]]></script>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e1f533ca1ba31010f61b4196bc4bcbfd</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>VAL Apply</sys_name>
         <sys_overrides/>
         <sys_package display_value="Approval Flow VA " source="x_484722_va_fundam">caf2b8c41ba85810f61b4196bc4bcbc3</sys_package>
@@ -49,7 +49,7 @@ action.setRedirectURL(current);]]></script>
         <sys_scope display_value="Approval Flow VA ">caf2b8c41ba85810f61b4196bc4bcbc3</sys_scope>
         <sys_update_name>sys_ui_action_e1f533ca1ba31010f61b4196bc4bcbfd</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-05 03:59:37</sys_updated_on>
+        <sys_updated_on>2020-11-14 02:29:31</sys_updated_on>
         <table>x_484722_va_fundam_va_task_list</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

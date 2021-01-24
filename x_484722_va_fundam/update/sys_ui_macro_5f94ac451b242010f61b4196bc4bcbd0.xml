@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_macro">
+    <sys_ui_macro action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <description>Variable Editor for Service Catalog Requested Items and Catalog Tasks</description>
+        <media_type/>
+        <name>com_glideapp_servicecatalog_veditor_mod</name>
+        <scoped_name>x_484722_va_fundam_com_glideapp_servicecatalog_veditor_mod</scoped_name>
+        <sys_class_name>sys_ui_macro</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-16 05:06:03</sys_created_on>
+        <sys_id>5f94ac451b242010f61b4196bc4bcbd0</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>com_glideapp_servicecatalog_veditor_mod</sys_name>
+        <sys_package display_value="Approval Flow VA " source="x_484722_va_fundam">caf2b8c41ba85810f61b4196bc4bcbc3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Approval Flow VA ">caf2b8c41ba85810f61b4196bc4bcbc3</sys_scope>
+        <sys_update_name>sys_ui_macro_5f94ac451b242010f61b4196bc4bcbd0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-16 06:20:54</sys_updated_on>
+        <xml><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+<j2:if test="$[current.canRead()]">
+    <g:requires name="scripts/js_includes_catalog.js" includes="true"/>
+    <g:requires name="styles/${new CatalogCssSelector().getVariableCss()}" includes="true"/>
+    <g2:evaluate var="jvar_catalog_item">
+       function eval_cat_item() {
+          var cat_item = "";
+          var className = current.getRecordClassName();
+          if (className == "sc_req_item") {
+             cat_item = current.cat_item;
+          } else if (className == "sc_task") {
+             cat_item = current.request_item.cat_item;
+          } else if (className == "x_484722_va_fundam_va_task_list") {
+             cat_item = current.catalog_item_mod;
+          }
+          return cat_item;
+       }
+       eval_cat_item();
+    </g2:evaluate>
+    <g2:evaluate var="jvar_cat_sets" jelly="true">
+       var jvar_cat_sets = "";
+       var gr = new GlideRecord("io_set_item");
+       gr.addQuery("sc_cat_item", jelly.jvar_catalog_item);
+	   gr.addQuery("variable_set.type", "one_to_one");
+       gr.query();
+		gs.debug('coffeeeee read '+current.canRead());
+       while (gr.next()) {
+          if (jvar_cat_sets.length > 0)
+             jvar_cat_sets += ",";
+          jvar_cat_sets += gr.variable_set;
+		gs.debug('coffeeeee ' + jvar_cat_sets);
+       }
+       jvar_cat_sets;
+    </g2:evaluate>
+	
+	<g2:evaluate var="jvar_questionset_read_only" jelly="true">
+		!current.canWrite();
+	</g2:evaluate>
+	
+	<g2:evaluate var="jvar_is_catalog_item_valid" jelly="true">
+		jvar_is_catalog_item_valid = GlideappCatalogItem.get('$[jvar_catalog_item]') != null ? true : false;
+		gs.debug('coffeeeee ' + jvar_is_catalog_item_valid);
+    </g2:evaluate>
+	<td>  <img src="10off.png" width="445" height="315"/></td>  
+  		<div data-sn-macro-sys-id="${jvar_macro_sys_id}">
+		   <g2:client_script type="catalog_question_editor" catalogItem="$[jvar_catalog_item]"/>
+		   <g:inline template="catalog_ui_policy.xml" />
+		   <g2:render_component componentName="com.glideapp.servicecatalog.VEditor"/>
+		</div>
+</j2:if>
+</j:jelly>]]></xml>
+    </sys_ui_macro>
+</record_update>
